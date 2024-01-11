@@ -1,0 +1,3929 @@
+From 51524b7d657b4c388d3183510782fad6be9779a5 Mon Sep 17 00:00:00 2001
+From: Vit Mojzis <vmojzis@redhat.com>
+Date: Mon, 27 Sep 2021 18:02:19 +0200
+Subject: [PATCH] Update translations
+
+Source:
+https://translate.fedoraproject.org/projects/setroubleshoot/rhel8plugins
+---
+ po/as.po      |    2 +-
+ po/bg.po      |    2 +-
+ po/bn.po      |    2 +-
+ po/bn_IN.po   |    2 +-
+ po/ca.po      |    2 +-
+ po/cs.po      |    2 +-
+ po/da.po      |    2 +-
+ po/de.po      |    2 +-
+ po/el.po      |    2 +-
+ po/en_GB.po   |    2 +-
+ po/es.po      |    2 +-
+ po/eu.po      |    2 +-
+ po/fi.po      | 1082 ++++++++++++++++++++++++++++++++++++++++++++++---
+ po/fr.po      |   16 +-
+ po/fur.po     |    2 +-
+ po/gl.po      |    2 +-
+ po/gu.po      |    2 +-
+ po/he.po      |    2 +-
+ po/hi.po      |    2 +-
+ po/hr.po      |    2 +-
+ po/hu.po      |    2 +-
+ po/it.po      |    2 +-
+ po/ja.po      |  143 ++++---
+ po/kn.po      |    2 +-
+ po/ko.po      |  151 +++----
+ po/mai.po     |    2 +-
+ po/ml.po      |    2 +-
+ po/mr.po      |    2 +-
+ po/ms.po      |    2 +-
+ po/nb_NO.po   |    2 +-
+ po/nds.po     |    2 +-
+ po/nl.po      |    2 +-
+ po/nn.po      |    2 +-
+ po/or.po      |    2 +-
+ po/pa.po      |    2 +-
+ po/pl.po      |    2 +-
+ po/pt.po      |    2 +-
+ po/pt_BR.po   |    2 +-
+ po/ru.po      |    2 +-
+ po/si.po      |    2 +-
+ po/sk.po      |    2 +-
+ po/sr.po      |    2 +-
+ po/sr_Latn.po |    2 +-
+ po/sv.po      |    2 +-
+ po/ta.po      |    2 +-
+ po/te.po      |    2 +-
+ po/th.po      |    2 +-
+ po/tr.po      |    2 +-
+ po/uk.po      |    9 +-
+ po/zh_CN.po   |   76 ++--
+ po/zh_TW.po   |    2 +-
+ 51 files changed, 1284 insertions(+), 283 deletions(-)
+
+diff --git a/po/as.po b/po/as.po
+index 59d568d..8b7b76b 100644
+--- a/po/as.po
++++ b/po/as.po
+@@ -8,7 +8,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:31-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Assamese (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/bg.po b/po/bg.po
+index 73c6be3..37cd397 100644
+--- a/po/bg.po
++++ b/po/bg.po
+@@ -10,7 +10,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:31-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Bulgarian (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/bn.po b/po/bn.po
+index 2edcc5f..d81595e 100644
+--- a/po/bn.po
++++ b/po/bn.po
+@@ -15,7 +15,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:31-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Bengali (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/bn_IN.po b/po/bn_IN.po
+index a230049..94275ba 100644
+--- a/po/bn_IN.po
++++ b/po/bn_IN.po
+@@ -11,7 +11,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:31-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Bengali (India) (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/ca.po b/po/ca.po
+index 7cf3d4c..a42eb99 100644
+--- a/po/ca.po
++++ b/po/ca.po
+@@ -12,7 +12,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2018-03-03 06:12-0500\n"
+ "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
+ "Language-Team: Catalan (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/cs.po b/po/cs.po
+index d5c41f1..90bc6c6 100644
+--- a/po/cs.po
++++ b/po/cs.po
+@@ -17,7 +17,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2018-08-03 09:51-0400\n"
+ "Last-Translator: Vit Mojzis <vmojzis@redhat.com>\n"
+ "Language-Team: Czech (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/da.po b/po/da.po
+index cf11574..950e116 100644
+--- a/po/da.po
++++ b/po/da.po
+@@ -9,7 +9,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2018-10-27 08:23-0400\n"
+ "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+ "Language-Team: Danish (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/de.po b/po/de.po
+index b830493..f483d37 100644
+--- a/po/de.po
++++ b/po/de.po
+@@ -24,7 +24,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-08-19 03:46-0400\n"
+ "Last-Translator: Petr Lautrbach <plautrba@fedoraproject.org>\n"
+ "Language-Team: German (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/el.po b/po/el.po
+index 4f0de00..448c6b0 100644
+--- a/po/el.po
++++ b/po/el.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/en_GB.po b/po/en_GB.po
+index f9478a6..5487bcc 100644
+--- a/po/en_GB.po
++++ b/po/en_GB.po
+@@ -8,7 +8,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:31-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/"
+diff --git a/po/es.po b/po/es.po
+index a6b5968..80645d2 100644
+--- a/po/es.po
++++ b/po/es.po
+@@ -20,7 +20,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2018-08-23 05:41-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Spanish (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/eu.po b/po/eu.po
+index bc0b7ef..258a342 100644
+--- a/po/eu.po
++++ b/po/eu.po
+@@ -8,7 +8,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2015-02-20 02:21-0500\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Basque (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/fi.po b/po/fi.po
+index 24ad18d..317ee81 100644
+--- a/po/fi.po
++++ b/po/fi.po
+@@ -10,17 +10,17 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2021-03-07 17:01+0000\n"
+-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-18 17:05+0000\n"
++"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+ "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+-"setroubleshoot/plugins/fi/>\n"
++"setroubleshoot/rhel8plugins/fi/>\n"
+ "Language: fi\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Weblate 4.5.1\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -30,7 +30,7 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    SELinux-käytäntö estää httpd-skriptiä kirjoittamasta julkiseen "
++"    SELinux-käytäntö estää httpd-skriptiä kirjoittamasta julkiseen \n"
+ "hakemistoon.\n"
+ "    "
+ 
+@@ -63,6 +63,18 @@ msgid ""
+ "relabel.  \"semanage fcontext -a -t public_content_rw_t <path>\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos httpd-komentosarjojen pitäisi sallia kirjoittaa julkisiin "
++"hakemistoihin, sinun on kytkettävä $BOOLEAN totuusarvo päälle ja muutettava "
++"julkisen hakemiston tiedostokontekstiksi public_content_rw_t. Katso "
++"httpd_selinux\n"
++" man-sivulta lisätietoja:\n"
++" \"setsebool -P $ BOOLEAN = 1; chcon -t public_content_rw_t <polku>\"\n"
++" Sinun on myös muutettava järjestelmän oletustiedostotunnistetiedostot, "
++"jotta julkisten hakemistojen merkinnät voidaan säilyttää myös täydellä "
++"uudelleetunnisteella. \"semanage fcontext -a -t public_content_rw_t <polku>"
++"\"\n"
++"    "
+ 
+ #: ../src/allow_anon_write.py:44
+ msgid ""
+@@ -108,6 +120,19 @@ msgid ""
+ "    report against this package.\n"
+ "    "
+ msgstr ""
++"\n"
++"    $SOURCE -sovellus yritti muuttaa keon muistin käytön suojausta\n"
++" (esim. varattu mallocilla). Tämä on potentiaalinen turvallisuus\n"
++" ongelma. Sovellusten ei pitäisi tehdä tätä. Sovellukset ovat\n"
++" joskus koodattu väärin ja pyytävät tätä lupaa.\n"
++" <a href=\"http://people.redhat.com/drepper/selinux-mem.html\"> SELinux-"
++"muistisuojatestit </a>\n"
++" verkkosivulla kerrotaan, kuinka tämä vaatimus poistetaan. Jos $SOURCE ei "
++"toimi ja\n"
++" tarvitset sitä, voit määrittää SELinuxin tilapäisesti sallimaan\n"
++" tämän käyttöoikeuden, kunnes sovellus on korjattu. \n"
++"Lähetä vikaraportti tämän paketin osalta.\n"
++"    "
+ 
+ #: ../src/allow_execheap.py:44
+ msgid ""
+@@ -173,6 +198,18 @@ msgid ""
+ "    workaround, until the library is fixed. Please file a bug report.\n"
+ "    "
+ msgstr ""
++"\n"
++"    $SOURCE -sovellus yritti ladata $TARGET_PATH, joka\n"
++" vaatii tekstin siirtämistä. Tämä on mahdollinen turvallisuusongelma.\n"
++" Suurin osa kirjastoista ei tarvitse tätä lupaa. Kirjastot ovat\n"
++" joskus koodattu väärin ja pyytävät tätä lupaa.\n"
++" <a href=\"http://people.redhat.com/drepper/selinux-mem.html\">SELinux-"
++"muistisuojatestit</a>\n"
++" verkkosivulla kerrotaan, kuinka tämä vaatimus poistetaan. Voit määrittää\n"
++" SELinux:in tilapäisesti niin, että $TARGET_PATH voi käyttää "
++"uudelleensijoittamista,\n"
++" kunnes kirjasto on korjattu. Lähetä virheraportti asiasta.\n"
++"    "
+ 
+ #: ../src/allow_execmod.py:44
+ msgid ""
+@@ -193,6 +230,24 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"    $SOURCE -sovellus yritti ladata $TARGET_PATH:n joka\n"
++" vaatii tekstin siirtämistä. Tämä on mahdollinen turvallisuusongelma.\n"
++" Suurimman osan kirjastoista ei pitäisi tarvita tätä lupaa.\n"
++" <a href=\"http://people.redhat.com/drepper/selinux-mem.html\">\n"
++" SELinux-muistisuojatestit</a>\n"
++" verkkosivu selittää tämän tarkistuksen. Tämä työkalu tutki kirjastoa ja "
++"näyttää\n"
++" kuin se olisi rakennettu oikein. Joten setroubleshoot ei voi määrittää, "
++"onko tämä\n"
++" sovellus vaarantunut vai ei. Tämä voi olla vakava asia. Sinun "
++"järjestelmäsi\n"
++" voi hyvinkin olla vaarantunut.\n"
++"\n"
++" Ota yhteyttä turvallisuudesta vastaavaan järjestelmänvalvojaan ja ilmoita "
++"tästä ongelmasta.\n"
++"\n"
++"    "
+ 
+ #: ../src/allow_execmod.py:61
+ msgid ""
+@@ -206,6 +261,16 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos luotat siihen, että $TARGET_PATH toimii oikein, voit muuttaa\n"
++" tiedoston kontekstin kohteeseen textrel_shlib_t. \"chcon -t "
++"textrel_shlib_t\n"
++" '$TARGET_PATH' \"\n"
++" Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydellä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"textrel_shlib_t '$FIX_TARGET_PATH\" \"\n"
++"\n"
++"    "
+ 
+ #: ../src/allow_execmod.py:114
+ msgid "Change label on the library."
+@@ -218,6 +283,10 @@ msgid ""
+ "executable.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH: ta muuttamasta ohjelmapinoa "
++"suoritettavaksi.\n"
++"    "
+ 
+ #: ../src/allow_execstack.py:64
+ msgid ""
+@@ -237,6 +306,22 @@ msgid ""
+ "file a bug report.\n"
+ "    "
+ msgstr ""
++"\n"
++"    $SOURCE -sovellus yritti tehdä pinonsa\n"
++" suoritettava. Tämä on mahdollinen turvallisuusongelma. Tämän ei koskaan "
++"pitäisi\n"
++" olla tarpeen. Pino-muistia ei voi  nykyään suorittaa useimmissa\n"
++" käyttöjärjestelmissä, eikä se tule muuttumaankaan. Suoritettava pinomuisti\n"
++" on yksi suurimmista turvallisuusongelmista. Execstack-virhe on\n"
++" itse asiassa todennäköisesti haittaohjelman aiheuttama. Sovellukset ovat\n"
++" joskus koodattu väärin ja pyytävät tätä lupaa.\n"
++" <a href=\"http://people.redhat.com/drepper/selinux-mem.html\">SELinux-"
++"muistisuojatestit</a>\n"
++" verkkosivulla kerrotaan, kuinka tämä vaatimus poistetaan. Jos $SOURCE ei\n"
++" tarvitsee sitä toimiakseen, voit määrittää SELinuxin\n"
++" väliaikaisesti sallimaan tämän pääsyn, kunnes sovellus on korjattu. Lähetä\n"
++"virheraportti asiasta.\n"
++"    "
+ 
+ #: ../src/allow_execstack.py:79
+ msgid ""
+@@ -248,12 +333,22 @@ msgid ""
+ "    execstack -s LIBRARY_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Joskus kirjasto on vahingossa merkitty execstack-lipulla,\n"
++" jos löydät kirjaston, jossa on tämä lippu, voit tyhjentää sen "
++"suorittamalla\n"
++" execstack -c LIBRARY_PATH. Yritä sitten suorittaa sovellus uudelleen. Jos\n"
++" sovellus ei edelleenkä toimi, voit ottaa lipun takaisin käyttöön\n"
++" suorittamalla execstack -s LIBRARY_PATH.\n"
++"    "
+ 
+ #: ../src/allow_execstack.py:89
+ msgid ""
+ "If you do not think $SOURCE_PATH should need to map stack memory that is "
+ "both writable and executable."
+ msgstr ""
++"Jos et usko, että $SOURCE_PATH tarvitsee kartoittaa pinomuistia, joka on "
++"sekä kirjoitettavissa että suoritettavissa."
+ 
+ #: ../src/allow_execstack.py:90
+ msgid ""
+@@ -270,6 +365,9 @@ msgid ""
+ "%s\n"
+ "should not require execstack"
+ msgstr ""
++"Jos uskot ettei\n"
++"%s\n"
++"pitäisi vaatia execstack:ia"
+ 
+ #: ../src/allow_execstack.py:108
+ #, python-format
+@@ -279,6 +377,10 @@ msgid ""
+ "Report this as a bug on %s.\n"
+ "You can clear the exestack flag by executing:"
+ msgstr ""
++"sinun pitäisi tyhjentää execstack-lippu ja tarkistaa, toimiiko $SOURCE_PATH "
++"oikein.\n"
++"Ilmoita tästä virheestä osoitteessa %s.\n"
++"Voit tyhjentää exestack-lipun suorittamalla:"
+ 
+ #: ../src/allow_execstack.py:118
+ #, python-format
+@@ -292,6 +394,10 @@ msgid ""
+ "filesystem.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti ftp-palvelulta pääsyn $ACCESS CIFS-tiedostojärjestelmään "
++"tallennettuihin tiedostoihin.\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:33
+ msgid ""
+@@ -311,6 +417,23 @@ msgid ""
+ "    this access attempt could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti ftp-palvelulta pääsyn $ACCESS CIFS-tiedostojärjestelmään "
++"tallennettuihin tiedostoihin.\n"
++"CIFS (Comment Internet File System) on samankaltainen "
++"verkkotiedostojärjestelmä kuin\n"
++"SMB (<a href=\"http://www.microsoft.com/mind/1196/cifs.asp\">http://www."
++"microsoft.com/mind/1196/cifs.asp</a>)\n"
++" Ftp-demoni yritti lukea yhtä tai useampaa tiedostoa tai hakemistoa\n"
++" tämän tyyppisestä liitetystä tiedostojärjestelmästä. Koska CIFS-"
++"tiedostojärjestelmät eivät tue\n"
++" hienorakeista SELinux-nimiöintiä, kaikilla tiedostoilla ja hakemistoilla\n"
++" tiedostojärjestelmässä on sama suojauskonteksti.\n"
++"\n"
++" Jos et ole määrittänyt ftp-palvelua lukemaan tiedostoja CIFS-"
++"tiedostojärjestelmästä\n"
++" tämä pääsyyritys voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:46
+ msgid ""
+@@ -334,6 +457,14 @@ msgid ""
+ "    directories with type public_content_t) in addition to writing to\n"
+ "    files and directories on CIFS filesystems.  "
+ msgstr ""
++" Vaihtamalla \"$BOOLEAN\" ja\n"
++"\"$WRITE_BOOLEAN\" -totuusarvot todeksi antaa tämän käyttöoikeuden:\n"
++"\"setsebool -P $BOOLEAN=1 $WRITE_BOOLEAN=1\".\n"
++"varoitus: \"$WRITE_BOOLEAN\" -totuusarvon asettaminen todeksi\n"
++"antaa ftp-daemonille oikeuden kirjoittaa kaikkeen julkiseen sisältöön "
++"(tiedostot ja\n"
++"hakemistot, joiden tyyppi on public_content_t) CIFS-tiedostojärjestelmissä\n"
++"olevin tiedostojen ja hakemistojen kirjoitusoikeuden lisäksi.  "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:62
+ msgid "If you want to allow ftpd to write to cifs file systems"
+@@ -354,6 +485,10 @@ msgid ""
+ "filesystem.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti ftp-palvelun pääsyn $ACCESS tiedostoihin, jotka on "
++"tallennettu NFS-tiedostojärjestelmään.\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_nfs.py:33
+ msgid ""
+@@ -374,6 +509,23 @@ msgid ""
+ "    this access attempt could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti ftp-palvelun pääsyn $ACCESS tiedostoihin, jotka on "
++"tallennettu NFS-tiedostojärjestelmään.\n"
++"NFS (Network Filesystem) on verkkotiedostojärjestelmä, jota käytetään "
++"yleisesti Unix/Linux\n"
++"järjestelmissä.\n"
++"\n"
++" Ftp-demoni yritti lukea yhtä tai useampaa tiedostoa tai hakemistoa\n"
++" tämän tyyppisestä liitetystä tiedostojärjestelmästä. Koska NFS-"
++"tiedostojärjestelmät eivät tue\n"
++" hienorakeista SELinux-nimiöintiä, kaikilla tiedostoilla ja hakemistoilla\n"
++" tiedostojärjestelmässä on sama suojauskonteksti.\n"
++"\n"
++" Jos et ole määrittänyt ftp-palvelua lukemaan tiedostoja NFS-"
++"tiedostojärjestelmästä\n"
++" tämä pääsyyritys voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_nfs.py:47
+ msgid ""
+@@ -383,6 +535,11 @@ msgid ""
+ "    \"setsebool -P allow_ftpd_use_nfs=1.\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Totuusarvon \"allow_ftpd_use_nfs\" muuttaminen todeksi sallii tämän "
++"käyttöoikeuden:\n"
++" \"setsebool -P allow_ftpd_use_nfs=1.\"\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_nfs.py:54
+ msgid ""
+@@ -394,14 +551,21 @@ msgid ""
+ "    directories with type public_content_t) in addition to writing to\n"
+ "    files and directories on NFS filesystems.  "
+ msgstr ""
++" Totuusarvojen \"allow_ftpd_use_nfs\" ja\n"
++"\"ftpd_anon_write\" muuttaminen todeksi sallii tämän pääsyn:\n"
++"\"setsebool -P allow_ftpd_use_nfs=1 ftpd_anon_write=1\".\n"
++"varoitus: \"ftpd_anon_write\" -totuusarvon asettaminen todeksi \n"
++"sallii ftp-daemonin kirjoittaa kaikkeen julkiseen sisältöön (tiedostot ja\n"
++"hakemistot, joiden tyyppi on public_content_t) NFS-tiedostojärjestelmissä \n"
++"olevien tiedostojen ja hakemistojen kirjoitusoikeuden lisäksi.  "
+ 
+ #: ../src/allow_ftpd_use_nfs.py:64
+ msgid "If you want to allow ftpd to write to nfs file systems"
+-msgstr ""
++msgstr "Jos haluat sallia ftpd:n kirjoittavan nfs-tiedostojärjestelmiin"
+ 
+ #: ../src/allow_ftpd_use_nfs.py:71
+ msgid "Enable booleans."
+-msgstr ""
++msgstr "Ota totuusarvot käyttöön."
+ 
+ #: ../src/associate.py:32 ../src/openvpn.py:31 ../src/public_content.py:27
+ #: ../src/qemu_blk_image.py:27 ../src/qemu_file_image.py:27
+@@ -412,6 +576,10 @@ msgid ""
+ "    SELinux is preventing $SOURCE_PATH \"$ACCESS\" access to $TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH \"$ACCESS\" -käyttöoikeuden $TARGET_PATH -"
++"palveluun.\n"
++"    "
+ 
+ #: ../src/associate.py:37
+ #, python-format
+@@ -425,6 +593,14 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"Yritit sijoittaa kohteeseen %s tyypin, joka ei ole tiedostotyyppi. Tämä ei "
++"ole sallittua, sinun on määritettävä tiedostotyyppi. Voit luetella kaikki "
++"tiedostotyypit seinfo-komennolla.\n"
++"\n"
++"seinfo -afile_type -x\n"
++"\n"
++"    "
+ 
+ #: ../src/associate.py:44
+ #, python-format
+@@ -432,10 +608,12 @@ msgid ""
+ "If you want to change the label of $TARGET_PATH to %s, you are not allowed "
+ "to since it is not a valid file type."
+ msgstr ""
++"Et voi vaihtaa haluamaasi nimiötä $TARGET_PATH:stä %s:ksi, koska se ei ole "
++"kelvollinen tiedostotyyppi."
+ 
+ #: ../src/associate.py:49
+ msgid "you must pick a valid file label."
+-msgstr ""
++msgstr "sinun on valittava kelvollinen tiedostonimiö."
+ 
+ #: ../src/automount_exec_config.py:27
+ msgid ""
+@@ -444,6 +622,10 @@ msgid ""
+ "mislabeled files $TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:ta suorittamasta mahdollisesti väärin "
++"nimiöityjä tiedostoja $TARGET_PATH.\n"
++"    "
+ 
+ #: ../src/automount_exec_config.py:31
+ msgid ""
+@@ -456,6 +638,17 @@ msgid ""
+ "to, this could indicate an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:ta suorittamasta mahdollisesti väärin "
++"nimiöityjä \n"
++"tiedostoja $TARGET_PATH. Automounter voidaan asettaa suorittamaan \n"
++"määritystiedostot. Jos $TARGET_PATH on automaattisesti liitettävä "
++"suoritettava \n"
++"määritystiedosto sillä on oltava bin_t-tunniste. Jos automaattinen liittäjä "
++"yrittää \n"
++"suorittaa jotain, jota sen ei pitäisi, se voi viitata "
++"tunkeutumisyritykseen.\n"
++"    "
+ 
+ #: ../src/automount_exec_config.py:39
+ msgid ""
+@@ -467,6 +660,13 @@ msgid ""
+ "'$FIX_TARGET_PATH'\".\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos haluat muuttaa tiedoston $TARGET_PATH tiedostokontekstia, jotta "
++"automaattiliittäjä voi suorittaa sen, voit suorittaa \"chcon -t bin_t "
++"$TARGET_PATH\". Jos haluat tämän pysyvän voimassa myös nimiön uudestaan "
++"määrittämisen jälkeen, sinun on muutettava tiedostokonteksti pysyvästi: "
++"Suorita \"semanage fcontext -a -t bin_t '$FIX_TARGET_PATH'\".\n"
++"    "
+ 
+ #: ../src/automount_exec_config.py:57
+ msgid "Change file context."
+@@ -497,6 +697,17 @@ msgid ""
+ "    to bind to $PORT_NUMBER, this could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE -palvelun sitoutumasta verkkoporttiin $ "
++"PORT_NUMBER, johon ei ole liitetty SELinux-tyyppiä.\n"
++"Jos $SOURCE -palvelun pitäisi sallia kuunnella osoitteessa $PORT_NUMBER, "
++"käytä komentoa <i> semanage </i> määrittämään $PORT_NUMBER porttityyppiin, "
++"johon $SOURCE_TYPE voi sitoutua (%s).\n"
++" \n"
++"\n"
++"Jos $SOURCE ei pitäisi\n"
++"sitoutua $PORT_NUMBER -palveluun, tämä voi tarkoittaa tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/bind_ports.py:38
+ #, python-format
+@@ -515,6 +726,19 @@ msgid ""
+ "boolean may fix the problem.  setsebool -P allow_ypbind=1.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos haluat sallia $SOURCE -palvelun sitoutua porttiin $PORT_NUMBER, voit "
++"suorittaa komennon\n"
++"\n"
++"    # semanage port -a -t PORT_TYPE -p %s $PORT_NUMBER\n"
++"    \n"
++"missä PORT_TYPE on yksi seuraavista: %s.\n"
++"\n"
++"    \n"
++"\n"
++"Jos tämä järjestelmä toimii NIS-asiakkaana, totuusarvon allow_ypbind "
++"ottaminen käyttöön voi korjata ongelman. setsebool -P allow_ypbind=1.\n"
++"    "
+ 
+ #: ../src/bind_ports.py:47
+ msgid "If you want to allow $SOURCE_PATH to bind to network port $PORT_NUMBER"
+@@ -526,11 +750,13 @@ msgid ""
+ "# semanage port -a -t PORT_TYPE -p %s $PORT_NUMBER\n"
+ "    where PORT_TYPE is one of the following: %s."
+ msgstr ""
++"# semanage port -a -t PORT_TYPE -p %s $PORT_NUMBER\n"
++"    missä PORT_TYPE on yksi seuraavista: %s."
+ 
+ #: ../src/bind_ports.py:56 ../src/connect_ports.py:54
+ #, python-format
+ msgid "# semanage port -a -t %s -p %s $PORT_NUMBER"
+-msgstr ""
++msgstr "# semanage port -a -t %s -p %s $PORT_NUMBER"
+ 
+ #: ../src/catchall_boolean.py:33
+ msgid ""
+@@ -538,6 +764,9 @@ msgid ""
+ "    SELinux is preventing $SOURCE_PATH \"$ACCESS\" access on $TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH \"$ACCESS\" pääsyn kohteeseen $TARGET_PATH.\n"
++"    "
+ 
+ #: ../src/catchall_boolean.py:37
+ msgid ""
+@@ -551,6 +780,14 @@ msgid ""
+ "    the access.\n"
+ "    "
+ msgstr ""
++"\n"
++"\n"
++"    SELinux eväsi $SOURCE:n pyytämän pääsyn. Nykyinen totuusarvo\n"
++"asetukset eivät salli tätä pääsyä. Jos et ole määrittänyt $SOURCE kohdetta\n"
++"pyytämään tätä pääsyä, tämä voi merkitä tunkeutumisyritystä. Jos tahdot\n"
++"tämän käyttöoikeuden, sinun on vaihdettava järjestelmän totuusarvoja\n"
++"salliaksesi tämän pääsyn.\n"
++"    "
+ 
+ #: ../src/catchall_boolean.py:46
+ msgid ""
+@@ -561,11 +798,18 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"    Rajoitetut prosessit voidaan konfiguroida suorittamaan niin, että "
++"pyytävät erilaista käyttöoikeutta, SELinux tarjoaa totuusarvot, joiden "
++"avulla \n"
++"voi tarpeen mukaan kytkeä päälle/pois päältä pääsyoikeuden.\n"
++"\n"
++"    "
+ 
+ #: ../src/catchall_boolean.py:63
+ #, python-format
+ msgid "If you want to %s"
+-msgstr ""
++msgstr "Jos haluat kohteeseen %s"
+ 
+ #: ../src/catchall_boolean.py:66
+ #, python-format
+@@ -597,10 +841,21 @@ msgid ""
+ "    have to be labeled with a file context which httpd can access.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on evännyt $SOURCE -käyttöoikeuden mahdollisesti\n"
++"väärin nimiöityihin tiedostoihin $TARGET_PATH. Tämä tarkoittaa, että SELinux "
++"ei\n"
++"anna httpd:n käyttää näitä tiedostoja. Jos httpd:lle pitäisi sallia tämä "
++"pääsy näihin tiedostoihin, sinun on vaihdettava tiedostokonteksti johonkin "
++"seuraavista tyyppeistä, %s.\n"
++"Monet kolmannen osapuolen sovellukset asentavat html-tiedostoja\n"
++"hakemistoihin, joita SELinux-käytäntö ei voi ennustaa. Nämä hakemistot\n"
++"on merkittävä tiedostokontekstilla, johon httpd pääsee.\n"
++"    "
+ 
+ #: ../src/catchall_labels.py:37
+ msgid "You need to change the label on $FIX_TARGET_PATH"
+-msgstr ""
++msgstr "Sinun on vaihdettava nimiö kohteessa $FIX_TARGET_PATH"
+ 
+ #: ../src/catchall_labels.py:40
+ #, python-format
+@@ -610,6 +865,10 @@ msgid ""
+ "Then execute:\n"
+ "restorecon -v '$FIX_TARGET_PATH'\n"
+ msgstr ""
++"# semanage fcontext -a -t TIEDOSTO_TYYPPI '$FIX_TARGET_PATH'\n"
++"missä TIEDOSTO_TYYPPI on yksi seuvaavista: %s.\n"
++"Suorita sitten:\n"
++"restorecon -v '$FIX_TARGET_PATH'\n"
+ 
+ #: ../src/catchall.py:29 ../src/chrome.py:29 ../src/mozplugger.py:29
+ #: ../src/mozplugger_remove.py:29
+@@ -628,6 +887,16 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"\n"
++"    SELinux eväsi $SOURCE:n pyytämän pääsyn. Ei ole odotettavissa,\n"
++"että $SOURCE tarvitsee tätä käyttöoikeutta ja tämän käyttöoikeuden "
++"pyytäminen\n"
++"voi merkitä tunkeutumisyritystä. On myös mahdollista, että erityinen\n"
++"sovelluksen versio tai kokoonpano aiheuttaa sen,\n"
++"että se pyytää lisää pääsyoikeuksia.\n"
++"\n"
++"    "
+ 
+ #: ../src/catchall.py:41
+ msgid ""
+@@ -639,36 +908,53 @@ msgid ""
+ "    Please file a bug report.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit luoda paikallisen käytäntömoduulin tämän pääsyn sallimiseksi \n"
++"katso <a href=\"http://docs.fedoraproject.org/selinux-faq-fc5/"
++"#id2961385\">FAQ</a>\n"
++"\n"
++"Lähetä virheraportti.\n"
++"    "
+ 
+ #: ../src/catchall.py:50
+ msgid ""
+ "If you believe that $SOURCE_BASE_PATH should be allowed $ACCESS access on "
+ "processes labeled $TARGET_TYPE by default."
+ msgstr ""
++"Jos uskot, että $SOURCE_BASE_PATH:lle pitäisi antaa $ACCESS -käyttöoikeus "
++"prosesseille, joiden nimiö on $TARGET_TYPE oletuksena."
+ 
+ #: ../src/catchall.py:52
+ msgid ""
+ "If you believe that $SOURCE_BASE_PATH should have the $ACCESS capability by "
+ "default."
+ msgstr ""
++"Jos uskot, että $SOURCE_BASE_PATH:llä pitäisi olla $ACCESS -käyttöoikeus "
++"oletuksena."
+ 
+ #: ../src/catchall.py:54
+ msgid ""
+ "If you believe that $SOURCE_BASE_PATH should be allowed $ACCESS access on "
+ "$TARGET_CLASS labeled $TARGET_TYPE by default."
+ msgstr ""
++"Jos uskot, että $SOURCE_BASE_PATH:lle pitäisi antaa $ACCESS -käyttöoikeus "
++"kohteelle $TARGET_CLASS, joiden nimiö on $TARGET_TYPE, oletuksena."
+ 
+ #: ../src/catchall.py:55
+ msgid ""
+ "If you believe that $SOURCE_BASE_PATH should be allowed $ACCESS access on "
+ "the $TARGET_BASE_PATH $TARGET_CLASS by default."
+ msgstr ""
++"Jos uskot, että $SOURCE_BASE_PATH:lle pitäisi antaa $ACCESS -käyttöoikeus "
++"kohteelle $TARGET_BASE_PATH $TARGET_CLASS oletuksena."
+ 
+ #: ../src/catchall.py:57
+ msgid ""
+ "You should report this as a bug.\n"
+ "You can generate a local policy module to allow this access."
+ msgstr ""
++"Sinun tulisi ilmoittaa tästä virheenä.\n"
++"Voit luoda paikallisen käytäntömoduulin salliaksesi tämän pääsyn."
+ 
+ #: ../src/catchall.py:58
+ msgid ""
+@@ -676,6 +962,9 @@ msgid ""
+ "# ausearch -c '$SOURCE' --raw | audit2allow -M my-$MODULE_NAME\n"
+ "# semodule -X 300 -i my-$MODULE_NAME.pp"
+ msgstr ""
++"Salli tämä käyttö toistaiseksi suorittamalla:\n"
++"# ausearch -c '$SOURCE' --raw | audit2allow -M my-$MODULE_NAME\n"
++"# semodule -X 300 -i my-$MODULE_NAME.pp"
+ 
+ #: ../src/connect_ports.py:27 ../src/sandbox_connect.py:29
+ msgid ""
+@@ -703,6 +992,17 @@ msgid ""
+ "    to connect to $PORT_NUMBER, this could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:n muodostamasta yhteyttä verkkoporttiin "
++"$PORT_NUMBER, johon ei ole liitetty SELinux-tyyppiä.\n"
++"Jos $SOURCE:n pitäisi sallia muodostaa yhteys osoitteeseen $PORT_NUMBER, "
++"määritä $PORT_NUMBER komennolla <i>semanage</i> $PORT_NUMBER porttityyppiin, "
++"johon $SOURCE_TYPE voi muodostaa yhteyden (%s).\n"
++"\n"
++"\n"
++"Jos $SOURCE:n ei ole tarkoitus muodostaa yhteyttä kohteeseen $PORT_NUMBER, \n"
++"se voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/connect_ports.py:38
+ #, python-format
+@@ -716,11 +1016,19 @@ msgid ""
+ "    where PORT_TYPE is one of the following: %s.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos haluat antaa $SOURCE:n muodostaa yhteyden kohteeseen $PORT_NUMBER, "
++"voit suorittaa:\n"
++"\n"
++"     # semanage port -a -t PORTTI_TYYPPI -p %s $PORT_NUMBER\n"
++"\n"
++"     missä PORTTI_TYYPPI  on yksi seuraavista: %s.\n"
++"    "
+ 
+ #: ../src/connect_ports.py:45 ../src/sandbox_connect.py:47
+ msgid ""
+ "If you want to allow $SOURCE_PATH to connect to network port $PORT_NUMBER"
+-msgstr ""
++msgstr "Jos haluat sallia $SOURCE_PATH:n sidonnan verkkoporttiin $PORT_NUMBER"
+ 
+ #: ../src/chrome.py:31
+ msgid ""
+@@ -734,6 +1042,15 @@ msgid ""
+ "the mozilla_plugin lockdown or not use these packages.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE:n pyytämän pääsyn. Ei odoteta, että $SOURCE "
++"tarvitsee tätä käyttöoikeutta, ja tämä pääsy voi merkitä "
++"tunkeutumisyritystä. On myös mahdollista, että sovelluksen tietyn version "
++"tai kokoonpanon vuoksi se tarvitsee lisäoikeuksia. spice-xpi ajaa "
++"sovelluksia mozilla-laajennuksissa, jotka edellyttävät pääsyä työpöydälle, "
++"joita mozilla_plugin-lukitus ei salli, joten sinun on joko poistettava "
++"käytöstä mozilla_plugin-lukitus tai olla käyttämättä näitä paketteja.\n"
++"    "
+ 
+ #: ../src/chrome.py:35
+ msgid ""
+@@ -743,19 +1060,25 @@ msgid ""
+ "plugins. setsebool -P unconfined_chrome_sandbox_transition 0\n"
+ "    "
+ msgstr ""
++"\n"
++"Joko poista mozplugger- tai spice-xpi-paketti suorittamalla 'yum remove "
++"mozplugger spice-xpi' tai poista SELinuxin pakottaminen käytöstä Chrome-"
++"laajennusten kautta. setsebool -P unconfined_chrome_sandbox_transition 0\n"
++"    "
+ 
+ #: ../src/chrome.py:38 ../src/mozplugger.py:38
+ #, python-format
+ msgid "If you want to use the %s package"
+-msgstr ""
++msgstr "Jos haluat käyttää %s-pakettia"
+ 
+ #: ../src/chrome.py:43
+ msgid "you must turn off SELinux controls on the Chrome plugins."
+ msgstr ""
++"sinun on poistettava käytöstä SELinux-hallintalaitteet Chrome-laajennuksista."
+ 
+ #: ../src/chrome.py:51
+ msgid "Disable SELinux controls on Chrome plugins"
+-msgstr ""
++msgstr "Poista käytöstä SELinux-hallintalaitteet Chrome-laajennuksista"
+ 
+ #: ../src/cvs_data.py:27
+ msgid ""
+@@ -764,6 +1087,10 @@ msgid ""
+ "$TARGET_PATH\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää cvs ($SOURCE_PATH) \"$ACCESS\" pääsyn kohteeseen "
++"$TARGET_PATH\n"
++"    "
+ 
+ #: ../src/cvs_data.py:31
+ msgid ""
+@@ -775,6 +1102,13 @@ msgid ""
+ "    it could indicate either a bug or it could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi cvs:n pääsyn kohteeseen $TARGET_PATH.\n"
++"Jos tämä on CVS-arkisto, sillä on oltava tiedoston kontekstinimiö "
++"cvs_data_t. \n"
++"Jos et aikonut käyttää $TARGET_PATH:ta CVS-arkistona, \n"
++"tämä voi osoittaa joko virheen tai se voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/cvs_data.py:38
+ msgid ""
+@@ -787,18 +1121,26 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -R -t cvs_data_t "
++"'$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleenimiöinnissä. \"semanage fcontext -a -t "
++"cvs_data_t '$FIX_TARGET_PATH'\"\n"
++"\n"
++"    "
+ 
+ #: ../src/cvs_data.py:44
+ msgid "If $TARGET_BASE_PATH should be shared via the cvs daemon"
+-msgstr ""
++msgstr "Jos $TARGET_BASE_PATH pitäisi jakaa cvs-daemonin kautta"
+ 
+ #: ../src/cvs_data.py:45 ../src/qemu_file_image.py:49
+ msgid "You need to change the label on $TARGET_BASE_PATH'"
+-msgstr ""
++msgstr "Sinun on vaihdettava nimiö kohteelle $TARGET_BASE_PATH '"
+ 
+ #: ../src/cvs_data.py:54
+ msgid "Change label"
+-msgstr ""
++msgstr "Vaihda nimiö"
+ 
+ #: ../src/dac_override.py:28
+ msgid ""
+@@ -806,6 +1148,9 @@ msgid ""
+ "    SELinux is preventing $SOURCE_PATH the \"$ACCESS\" capability.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:ltäa \"$ACCESS\" -kyvyn.\n"
++"    "
+ 
+ #: ../src/dac_override.py:32
+ msgid ""
+@@ -816,18 +1161,28 @@ msgid ""
+ "it.\n"
+ "    "
+ msgstr ""
++"\n"
++"\tdac_override ja dac_read_search -ominaisuudet osoittavat yleensä, että "
++"juuriprosessilla ei ole pääsyä tiedostoon käyttöoikeusmerkkien perusteella. "
++"Tämä tarkoittaa yleensä sitä, että sinulla on jokin tiedosto, jolla on väärä "
++"omistajuus/käyttöoikeudet.\n"
++"    "
+ 
+ #: ../src/dac_override.py:38
+ msgid ""
+ "If you want to help identify if domain needs this access or you have a file "
+ "with the wrong permissions on your system"
+ msgstr ""
++"Jos haluat auttaa tunnistamaan, tarvitseeko toimialue tätä käyttöoikeutta "
++"vai onko järjestelmässäsi tiedosto, jolla on väärät käyttöoikeudet"
+ 
+ #: ../src/dac_override.py:39
+ msgid ""
+ "turn on full auditing to get path information about the offending file and "
+ "generate the error again."
+ msgstr ""
++"ota täysi auditointi käyttöön saadaksesi polkutiedot loukkaavasta "
++"tiedostosta ja luo virhe uudelleen."
+ 
+ #: ../src/dac_override.py:40
+ msgid ""
+@@ -839,6 +1194,14 @@ msgid ""
+ "If you see PATH record check ownership/permissions on file, and fix it,\n"
+ "otherwise report as a bugzilla."
+ msgstr ""
++"\n"
++"Ota käyttöön täysi auditointi\n"
++"# auditctl -w /etc/shadow -p w\n"
++"Yritä luoda AVC uudelleen. Suorita sitten\n"
++"# ausearch -m avc -ts recent\n"
++"Jos näet PATH-tietueen, tarkista tiedoston omistajuus/oikeudet ja korjaa "
++"se,\n"
++"ilmoita muutoin virhe bugzillaan."
+ 
+ #: ../src/device.py:29
+ msgid ""
+@@ -847,6 +1210,10 @@ msgid ""
+ "$TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:n \"$ACCESS\" pääsyn laitteelle "
++"$TARGET_PATH.\n"
++"    "
+ 
+ #: ../src/device.py:33
+ msgid ""
+@@ -879,6 +1246,35 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"\n"
++"    SELinux on evännyt $SOURCE \"$ACCESS\" -käyttöoikeuden laitteelle "
++"$TARGET_PATH.\n"
++"$TARGET_PATH on nimiöity väärin, tällä laitteella on hakemiston /dev "
++"oletusnimiö, eikä niin pitäisi\n"
++"tapahtua. Kaikilla merkki- ja/tai lohkolaitteilla tulisi olla nimiö.\n"
++"\n"
++"Voit yrittää muuttaa tiedoston nimiötä käyttämällä\n"
++"\n"
++"restorecon -v '$TARGET_PATH'.\n"
++"\n"
++"Jos tämän laitteen nimiö on yhä device_t, silloin vika on SELinux-"
++"käytännössä.\n"
++"\n"
++"Lähetä virheraportti.\n"
++"\n"
++"Jos tarkastelet muita vastaavia laitteita, ls -lZ /dev/SIMILAR ja löydät "
++"tyypin, joka toimisi kohteelle $TARGET_PATH,\n"
++"voit käyttää komentoa: chcon -t SAMANKALTAINEN_TYYPPI '$TARGET_PATH'. Jos "
++"tämä korjaa ongelman, voit tehdä siitä pysyvän suorittamalla\n"
++"komennon: semanage fcontext -a -t SAMANKALTAINEN_TYYPPI '$FIX_TARGET_PATH'\n"
++"\n"
++"Jos restorecon muuttaa kontekstia, se tarkoittaa, että laitteen luonut "
++"sovellus loi sen käyttämättä\n"
++"SELinux-sovellusliittymiä. Jos pystyt selvittämään, mikä sovellus loi "
++"laitteen, lähetä virheraportti koskien tätä sovellusta.\n"
++"\n"
++"    "
+ 
+ #: ../src/device.py:56
+ msgid ""
+@@ -887,17 +1283,23 @@ msgid ""
+ "'$TARGET_PATH'\n"
+ "    "
+ msgstr ""
++"\n"
++"    Yritä restorecon -v '$TARGET_PATH' tai chcon -t SAMANKALTAINEN_TYYPPI "
++"'$TARGET_PATH'\n"
++"    "
+ 
+ #: ../src/device.py:60
+ msgid ""
+ "You need to change the label on $TARGET_PATH to a type of a similar device."
+-msgstr ""
++msgstr "Sinun on vaihdettava $TARGET_PATH -nimiö vastaavanlaiseksi laitteeksi."
+ 
+ #: ../src/device.py:61
+ msgid ""
+ "# semanage fcontext -a -t SIMILAR_TYPE '$FIX_TARGET_PATH'\n"
+ "# restorecon -v '$FIX_TARGET_PATH'"
+ msgstr ""
++"# semanage fcontext -a -t SAMANKALTAINEN_TYYPPI '$FIX_TARGET_PATH'\n"
++"# restorecon -v '$FIX_TARGET_PATH'"
+ 
+ #: ../src/disable_ipv6.py:30
+ msgid ""
+@@ -911,13 +1313,15 @@ msgstr ""
+ 
+ #: ../src/disable_ipv6.py:40
+ msgid "If you want to disable IPV6 on this machine"
+-msgstr ""
++msgstr "Jos haluat poistaa IPV6:n käytöstä tältä koneelta"
+ 
+ #: ../src/disable_ipv6.py:41
+ msgid ""
+ "you need to set /proc/sys/net/ipv6/conf/all/disable_ipv6 to 1 and do not "
+ "blacklist the module'"
+ msgstr ""
++"sinun on määritettävä /proc/sys/net/ipv6/conf/all/disable_ipv6 arvoon 1 "
++"äläkä lisää moduulia mustalle listalle '"
+ 
+ #: ../src/disable_ipv6.py:42
+ msgid ""
+@@ -925,6 +1329,9 @@ msgid ""
+ "net.ipv6.conf.all.disable_ipv6 = 1\n"
+ "to /etc/sysctl.conf\n"
+ msgstr ""
++"Lisää\n"
++"net.ipv6.conf.all.disable_ipv6 = 1\n"
++"tiedostoon: /etc/sysctl.conf\n"
+ 
+ #: ../src/file.py:27
+ msgid ""
+@@ -932,6 +1339,9 @@ msgid ""
+ "    SELinux is preventing access to a file labeled unlabeled_t.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää pääsyn tiedostoon, jonka nimiö on unlabeled_t.\n"
++"    "
+ 
+ #: ../src/file.py:31
+ msgid ""
+@@ -947,6 +1357,20 @@ msgid ""
+ "    relabel the entire file system.\n"
+ "    "
+ msgstr ""
++"\n"
++"    unlabeled_t -merkinnällä varustettujen tiedostojen SELinux-"
++"käyttöoikeustarkistukset on\n"
++"kielletty. unlabeled_t on konteksti, jonka SELinux-ydin antaa tiedostoille\n"
++"joilla ei ole nimiötä. Tämä ilmaisee vakavaa nimiöongelmaa.\n"
++"Mitään SELinux laatikossa olevaa tiedostoa ei saa koskaan nimiöidä "
++"unlabeled_t.\n"
++"Jos olet juuri lisännyt levyaseman järjestelmään, voit\n"
++"nimiöidä sen uudelleen käyttämällä restorecon-komentoa. Esimerkiksi jos "
++"tallensit\n"
++"kotihakemiston edellisestä asennuksesta, joka ei käyttänyt SELinuxia, "
++"'restorecon -R -v /home' korjaa nimiöt. Muuten sinun pitäisi\n"
++"nimiöidä koko tiedostojärjestelmä uudelleen.\n"
++"    "
+ 
+ #: ../src/file.py:42
+ msgid ""
+@@ -955,30 +1379,37 @@ msgid ""
+ "    computer system: \"touch /.autorelabel; reboot\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Uudelleenmäärittääksesi nimiön voit suorittaa seuraavan komennon "
++"pääkäyttäjänä\n"
++"tietokonejärjestelmässä: \"touch /.autorelabel; reboot\"\n"
++"    "
+ 
+ #: ../src/file.py:49
+ msgid "This is caused by a newly created file system."
+-msgstr ""
++msgstr "Tämän aiheuttaa juuri luotu tiedostojärjestelmä."
+ 
+ #: ../src/file.py:51
+ msgid "If you think this is caused by a badly mislabeled machine."
+-msgstr ""
++msgstr "Jos luulet tämän johtuvan huonosti väärinnimiöidystä koneesta."
+ 
+ #: ../src/file.py:55
+ msgid "you need to add labels to it."
+-msgstr ""
++msgstr "sinun on lisättävä siihen nimiöitä."
+ 
+ #: ../src/file.py:57
+ msgid "you need to fully relabel."
+-msgstr ""
++msgstr "sinun täytyy täydellisesti uudelleen määrittää nimiö."
+ 
+ #: ../src/file.py:73
+ msgid "Try to fix the label."
+-msgstr ""
++msgstr "Yritä korjata nimiö."
+ 
+ #: ../src/file.py:76
+ msgid "Relabel the whole file system. Includes reboot!"
+ msgstr ""
++"Uudelleen määritä koko tiedostojärjestelmän nimiö. Sisältää "
++"uudelleenkäynnistyksen!"
+ 
+ #: ../src/filesystem_associate.py:27
+ msgid ""
+@@ -987,6 +1418,10 @@ msgid ""
+ "of $SOURCE_TYPE on a filesystem.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:ia luomasta tiedostoa, jonka konteksti on "
++"$SOURCE_TYPE, tiedostojärjestelmään.\n"
++"    "
+ 
+ #: ../src/filesystem_associate.py:31
+ msgid ""
+@@ -1004,6 +1439,19 @@ msgid ""
+ "    for the destination.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE:a luomasta tiedostoa, jonka konteksti on "
++"$SOURCE_TYPE, tiedostojärjestelmään.\n"
++"Yleensä näin tapahtuu, kun pyydät cp-komentoa ylläpitämään tiedoston "
++"kontekstia \n"
++"kopioitaessa tiedostojärjestelmien välillä, esimerkiksi \"cp -a\". Kaikkia "
++"tiedostokonteksteja ei pidä ylläpitää\n"
++"tiedostojärjestelmien välillä. Esimerkiksi vain-luku-tyyppistä "
++"tiedostotyyppiä, kuten iso9660_t, ei tule sijoittaa\n"
++"r/w-järjestelmään. \"cp -p\" saattaa olla parempi ratkaisu, koska se "
++"hyväksyy oletustiedostokontekstin\n"
++"määränpäässä.\n"
++"    "
+ 
+ #: ../src/filesystem_associate.py:40
+ msgid ""
+@@ -1012,24 +1460,34 @@ msgid ""
+ "context.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Käytä komentoa \"cp -p\" säilyttääksesi kaikki muut oikeudet paitsi "
++"SELinux-kontekstin.\n"
++"    "
+ 
+ #: ../src/filesystem_associate.py:43
+ msgid ""
+ "If you believe $SOURCE_BASE_PATH should be allowed to create "
+ "$TARGET_BASE_PATH files"
+ msgstr ""
++"Jos uskot, että $SOURCE_BASE_PATH:in pitäisi sallia luoda $TARGET_BASE_PATH "
++"tiedostoja"
+ 
+ #: ../src/filesystem_associate.py:44
+ msgid ""
+ "you need to use a different command. You are not allowed to preserve the "
+ "SELinux context on the target file system."
+ msgstr ""
++"sinun on käytettävä eri komentoa. Sinun ei sallita säilyttää SELinux-"
++"kontekstia kohdetiedostojärjestelmässä."
+ 
+ #: ../src/filesystem_associate.py:46
+ msgid ""
+ "use a command like \"cp -p\" to preserve all permissions except SELinux "
+ "context."
+ msgstr ""
++"käytä komentoa \"cp -p\" säilyttääksesi kaikki muut oikeudet paitsi SELinux-"
++"kontekstin."
+ 
+ #: ../src/httpd_can_sendmail.py:28
+ msgid ""
+@@ -1037,6 +1495,9 @@ msgid ""
+ "    SELinux is preventing the http daemon from sending mail.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää http-daemonia lähettämästä sähköpostia.\n"
++"    "
+ 
+ #: ../src/httpd_can_sendmail.py:32
+ msgid ""
+@@ -1047,6 +1508,12 @@ msgid ""
+ "    signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt http-daemonia lähettämästä sähköpostia.\n"
++"httpd-komentosarja yrittää muodostaa yhteyden postiporttiin tai suorittaa\n"
++"sendmail-komentoa. Jos et määrittänyt httpd:tä sendmailille, tämä voi\n"
++"olla merkki tunkeutumisyrityksestä.\n"
++"    "
+ 
+ #: ../src/httpd_can_sendmail.py:39
+ msgid ""
+@@ -1056,14 +1523,19 @@ msgid ""
+ "    $BOOLEAN=1\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos haluat, että httpd lähettää sähköpostia, sinun on asetettava\n"
++"    $BOOLEAN totuusarvo: \"setsebool -P\n"
++"    $BOOLEAN=1\"\n"
++"    "
+ 
+ #: ../src/httpd_can_sendmail.py:47
+ msgid "If you want to allow httpd to send mail"
+-msgstr ""
++msgstr "Jos haluat sallia httpd:n lähettää sähköpostia"
+ 
+ #: ../src/httpd_can_sendmail.py:48
+ msgid "you must setup SELinux to allow this"
+-msgstr ""
++msgstr "SELinux on määritettävä tämän sallimiseksi"
+ 
+ #: ../src/httpd_unified.py:29
+ msgid ""
+@@ -1071,6 +1543,9 @@ msgid ""
+ "    SELinux prevented httpd $ACCESS access to http files.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti httpd $ACCESS -käyttöoikeuden http-tiedostoihin.\n"
++"    "
+ 
+ #: ../src/httpd_unified.py:33
+ msgid ""
+@@ -1096,6 +1571,25 @@ msgid ""
+ "    script types.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti httpd $ACCESS-käyttöoikeuden http-tiedostoihin.\n"
++"\n"
++"Tavallisesti httpd saa täyden pääsyn kaikkiin tiedostoihin, jotka on "
++"merkitty http-tiedostoyhteydellä.\n"
++"Tällä koneella on tiukennettu turvallisuuspolitiikka $BOOLEAN kytkettynä\n"
++"pois päältä, tämä edellyttää kaikkien tiedostojen nimenomaista nimiöintiä. "
++"Jos tiedosto on\n"
++"cgi-komentosarja, se on nimiöitävä komennolla: httpd_TYYPPI_script_exec_t\n"
++"jotta se suoritetaan. Jos se on luettavaa sisältöä, se on nimiöitävä\n"
++"httpd_TYYPPI_content_t. Jos se on kirjoitettavaa sisältöä, se on nimiöitävä\n"
++"httpd_TYYPPI_script_rw_t tai httpd_TYYPPI_script_ra_t. Voit käyttää\n"
++"chcon-komentoa muuttaaksesi tätä kontekstia. Katso man-sivua\n"
++"\"mam httpd_selinux\" tai\n"
++"<a href=\"http://fedora.redhat.com/docs/selinux-apache-fc3\">UKK</a>\n"
++"\"TYYPPI\" viittaa johonkin \"sys\", \"käyttäjä\" tai \"henkilöstö\" tai "
++"mahdollisesti muuhun\n"
++"komentotyyppiin.\n"
++"    "
+ 
+ #: ../src/httpd_unified.py:50
+ msgid ""
+@@ -1114,6 +1608,8 @@ msgid ""
+ "If you want to allow httpd to execute cgi scripts and to unify HTTPD "
+ "handling of all content files."
+ msgstr ""
++"Jos haluat sallia httpd:n suorittaa cgi-komentosarjoja ja yhtenäistää "
++"kaikkien sisältötiedostojen HTTPD-käsittelyn."
+ 
+ #: ../src/httpd_unified.py:58
+ msgid ""
+@@ -1135,11 +1631,22 @@ msgid ""
+ "for more information on setting up httpd and selinux.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti httpd $ACCESS-käyttöoikeuden kohteeseen $TARGET_PATH.\n"
++"\n"
++"httpd-komentosarjat ei saa kirjoittaa sisältöön ilman kaikkien tiedostojen "
++"nimenomaista nimiöintiä. \n"
++"Jos $TARGET_PATH on kirjoitettissa olevaa sisältöä, se on merkittävä "
++"tunnisteella httpd_sys_rw_content_t \n"
++"tai jos haluat vain lisätä sisältöä, voit merkitä sen nimiöksi "
++"httpd_sys_ra_content_t. Katso \"man httpd_selinux\" saadaksesi lisätietoja "
++"httpd: n ja SELinuxin määrittämisestä.\n"
++"    "
+ 
+ #: ../src/httpd_write_content.py:40 ../src/qemu_blk_image.py:45
+ #: ../src/samba_share.py:45 ../src/swapfile.py:45 ../src/xen_image.py:48
+ msgid "You need to change the label on '$FIX_TARGET_PATH'"
+-msgstr ""
++msgstr "Sinun on vaihdettava nimiö kohteessa '$FIX_TARGET_PATH'"
+ 
+ #: ../src/kernel_modules.py:29
+ msgid ""
+@@ -1148,6 +1655,10 @@ msgid ""
+ "kernel configuration.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Järjestelmäsi saattaa olla vakavasti vaarantunut! $SOURCE_PATH yritti "
++"muokata ytimen kokoonpanoa.\n"
++"    "
+ 
+ #: ../src/kernel_modules.py:33
+ msgid ""
+@@ -1162,18 +1673,30 @@ msgid ""
+ "    serious issue. Your system may very well be compromised.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:a muokkaamasta $TARGET:ia. Tämä kieltäminen\n"
++"antaa ymmärtää, että $SOURCE yritti muokata ytimen toimintaa tai\n"
++"lisätä koodia ytimeen. Kaikkilla sovelluksilla, jotka tarvitsevat tätä\n"
++"oikeutta, pitäisi jo olla tätä varten laadittu käytäntö. Vaarantuneen\n"
++"sovelluksen yritys muokata ydintä aiheuttaa tämän AVC:n luomisen. Tämä on\n"
++"vakava asia. Järjestelmäsi voi hyvinkin olla vaarantunut.\n"
++"    "
+ 
+ #: ../src/kernel_modules.py:44 ../src/selinuxpolicy.py:44
+ msgid ""
+ "If you do not think $SOURCE_BASE_PATH should try $ACCESS access on "
+ "$TARGET_BASE_PATH."
+ msgstr ""
++"Jos et usko, että $SOURCE_BASE_PATH:in pitäisi yrittää $ACCESS -pääsyä "
++"kohteeseen $TARGET_BASE_PATH."
+ 
+ #: ../src/kernel_modules.py:45 ../src/selinuxpolicy.py:45
+ msgid ""
+ "you may be under attack by a hacker, since confined applications should not "
+ "need this access."
+ msgstr ""
++"voit olla hakkerin hyökkäyksen kohteena, koska rajoitettujen sovellusten ei "
++"pitäisi tarvita tätä käyttöoikeutta."
+ 
+ #: ../src/leaks.py:27
+ msgid ""
+@@ -1182,6 +1705,10 @@ msgid ""
+ "descriptor.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH:n pääsyn vuotaneeseen $TARGET_PATH -"
++"tiedostokuvaukseen.\n"
++"    "
+ 
+ #: ../src/leaks.py:31
+ msgid ""
+@@ -1196,6 +1723,15 @@ msgid ""
+ "appropriate package.  You can safely ignore this avc.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE-komennon pyytämän pääsyn. Näyttää siltä, että tämä "
++"on joko vuotanut kuvaaja tai $SOURCE-lähtö ohjataan tiedostoon, johon ei ole "
++"pääsyä. Vuodot voidaan yleensä jättää huomiotta, koska SELinux vain sulkee "
++"vuodon ja ilmoittaa virheestä. Sovellus ei käytä kuvaajaa, joten se toimii "
++"oikein. Jos tämä on uudelleenohjaus, et saa ulostuloa $TARGET_PATH. Sinun "
++"tulisi luoda bugzilla selinux-policy-ohjelmassa, ja se ohjataan sopivaan "
++"pakettiin. Voit ohittaa tämän avc:n turvallisesti.\n"
++"    "
+ 
+ #: ../src/leaks.py:35
+ msgid ""
+@@ -1205,6 +1741,11 @@ msgid ""
+ "#id2961385\">FAQ</a>\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit luoda paikallisen käytäntömoduulin tämän pääsyn sallimiseksi\n"
++" katso <a href=\"http://docs.fedoraproject.org/selinux-faq-fc5/"
++"#id2961385\">UKK</a>\n"
++"    "
+ 
+ #: ../src/leaks.py:42
+ msgid ""
+@@ -1212,18 +1753,25 @@ msgid ""
+ "$TARGET_BASE_PATH $TARGET_CLASS, because you believe it should not need this "
+ "access."
+ msgstr ""
++"Jos haluat olla välittämättä, että $SOURCE_BASE_PATH yrittää $ACCESS pääsyä "
++"$TARGET_BASE_PATH $TARGET_CLASS, koska uskot, ettei sen pitäisi tarvita tätä "
++"käyttöoikeutta."
+ 
+ #: ../src/leaks.py:43
+ msgid ""
+ "You should report this as a bug.  \n"
+ "You can generate a local policy module to dontaudit this access."
+ msgstr ""
++"Sinun tulisi ilmoittaa tästä virheenä.\n"
++"Voit luoda paikallisen käytäntömoduulin tämän auditoinnin poistamiseksi."
+ 
+ #: ../src/leaks.py:44
+ msgid ""
+ "# ausearch -x $SOURCE_PATH --raw | audit2allow -D -M my-$SOURCE\n"
+ "# semodule -X 300 -i my-$SOURCE.pp"
+ msgstr ""
++"# ausearch -x $SOURCE_PATH --raw | audit2allow -D -M oma-$SOURCE\n"
++"# semodule -X 300 -i oma-$SOURCE.pp"
+ 
+ #: ../src/mmap_zero.py:29
+ msgid ""
+@@ -1232,6 +1780,10 @@ msgid ""
+ "low kernel memory.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Järjestelmäsi saattaa olla vakavasti vaarantunut! $SOURCE_PATH yritti "
++"mmapata ytimen alempaa muistialuetta.\n"
++"    "
+ 
+ #: ../src/mmap_zero.py:33
+ msgid ""
+@@ -1251,12 +1803,28 @@ msgid ""
+ "    compromised.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:lta kyvyn kartoittaa ytimen matalan "
++"muistialueen\n"
++"osoitetilaa. Kyvyn kartoittaa matalan muistialueen osoitetila on\n"
++"määrittänyt /proc/sys/kernel/mmap_min_addr. Tällaisten kartoitusten "
++"estäminen\n"
++"auttaa suojaamaan ytimessä olevien nolla-virheiden hyödyntämiseltä. "
++"Kaikille\n"
++"sovelluksille, jotka tarvitsevat tämän käyttöoikeuden, olisi jo pitänyt "
++"laatia käytäntö\n"
++"sitä varten. Jos vaarantunut sovellus yrittää muokata ydintä, tämä AVC\n"
++"luodaan. Tämä on vakava asia. Järjestelmäsi voi hyvinkin olla\n"
++"vaarantunut.\n"
++"    "
+ 
+ #: ../src/mmap_zero.py:46
+ msgid ""
+ "If you do not think $SOURCE_PATH should need to mmap low memory in the "
+ "kernel."
+ msgstr ""
++"Jos et usko, että $SOURCE_PATH:n pitäisi tarvita mmapata ytimen alempaa "
++"muistialuetta."
+ 
+ #: ../src/mmap_zero.py:47
+ msgid "you may be under attack by a hacker, this is a very dangerous access."
+@@ -1271,6 +1839,10 @@ msgid ""
+ "    \"$TARGET_PATH\" (type \"$TARGET_TYPE\").\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti $SOURCE:a liittymästä tiedostoon tai hakemistoon\n"
++"\"$ TARGET_PATH\" (tyyppi \"$ TARGET_TYPE\").\n"
++"    "
+ 
+ #: ../src/mounton.py:34
+ msgid ""
+@@ -1283,6 +1855,16 @@ msgid ""
+ "    label of the file or directory.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux esti $SOURCE:a liittymästä tiedostojärjestelmään tiedostossa\n"
++"tai hakemistossa \"$TARGET_PATH\", jonka tyyppi on \"$TARGET_TYPE\". "
++"Oletuksena\n"
++"SELinux rajoittaa tiedostojärjestelmien liitokset vain joihinkin "
++"tiedostoihin tai\n"
++"hakemistoihin (ne, joiden tyypit sisältävät liitospistemääritteen).\n"
++"tyypillä \"$TARGET_TYPE\" ei ole tätä määritettä. Voit muuttaa\n"
++"tiedoston tai hakemiston nimiön.\n"
++"    "
+ 
+ #: ../src/mounton.py:43
+ msgid ""
+@@ -1295,14 +1877,24 @@ msgid ""
+ "mnt_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos muutat file_context -asetukseksi mnt_t, komento mount voi liittää "
++"tiedostojärjestelmän:\n"
++" \"chcon -t mnt_t '$TARGET_PATH'.\"\n"
++" Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"mnt_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/mounton.py:48
+ msgid "If you want to allow $SOURCE_BASE_PATH to mount on $TARGET_BASE_PATH."
+ msgstr ""
++"Jos haluat sallia $SOURCE_BASE_PATH:n liittymisen kohteeseen "
++"$TARGET_BASE_PATH."
+ 
+ #: ../src/mounton.py:49
+ msgid "you must change the labeling on $TARGET_PATH."
+-msgstr ""
++msgstr "sinun on vaihdettava nimiö kohteeseen $TARGET_PATH."
+ 
+ #: ../src/mozplugger.py:31
+ msgid ""
+@@ -1316,6 +1908,16 @@ msgid ""
+ "to turn off the mozilla_plugin lockdown or not use these packages.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE:n pyytämän pääsyn. Ei odoteta, että $SOURCE "
++"tarvitsee tätä käyttöoikeutta, ja tämä pääsy voi merkitä "
++"tunkeutumisyritystä. On myös mahdollista, että sovelluksen tietyn version "
++"tai kokoonpanon vuoksi se vaatii lisäoikeuksia. mozplugger ja spice-xpi "
++"ajavat sovelluksia mozilla-laajennuksissa, jotka vaativat pääsyn "
++"työpöydälle, joita mozilla_plugin-lukitus ei salli, joten sinun on joko "
++"poistettava käytöstä mozilla_plugin-lukitus tai olla käyttämättä näitä "
++"paketteja.\n"
++"    "
+ 
+ #: ../src/mozplugger.py:35
+ msgid ""
+@@ -1325,10 +1927,15 @@ msgid ""
+ "plugins. setsebool -P unconfined_mozilla_plugin_transition 0\n"
+ "    "
+ msgstr ""
++"\n"
++"Poista joko mozplugger- tai spice-xpi-paketti suorittamalla 'yum remove "
++"mozplugger spice-xpi' tai sammuta SELinuxin pakottaminen Firefox-"
++"laajennusten kautta: setsebool -P unconfined_mozilla_plugin_transition 0\n"
++"    "
+ 
+ #: ../src/mozplugger.py:43
+ msgid "you must turn off SELinux controls on the Firefox plugins."
+-msgstr ""
++msgstr "sinun on poistettava käytöstä SELinux-hallinta Firefox-laajennuksissa."
+ 
+ #: ../src/mozplugger_remove.py:31
+ msgid ""
+@@ -1340,6 +1947,13 @@ msgid ""
+ "    additional access.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE: n pyytämän pääsyn. Ei ole\n"
++"oletettavaa, että $SOURCE tarvitsisi tätä käyttöoikeutta ja tämän pyyntö\n"
++"voi merkitä tunkeutumisyritystä. On myös mahdollista, että erityinen\n"
++"sovelluksen versio tai kokoonpano aiheuttaa käyttöoikeuden\n"
++"lisäyksen pyynnön.\n"
++"    "
+ 
+ #: ../src/mozplugger_remove.py:39
+ msgid ""
+@@ -1349,12 +1963,19 @@ msgid ""
+ "setsebool -P unconfined_mozilla_plugin_transition 0\n"
+ "    "
+ msgstr ""
++"\n"
++"Joko poista mozplluger-paketti suorittamalla 'yum remove mozplugger'\n"
++"Tai sammuta SELinuxin pakottaminen Firefox-laajennusten kautta.\n"
++"setsebool -P unconfined_mozilla_plugin_transition 0\n"
++"    "
+ 
+ #: ../src/mozplugger_remove.py:44
+ msgid ""
+ "If you want to to continue using SELinux Firefox plugin containment rather "
+ "then using mozplugger package"
+ msgstr ""
++"Jos haluat jatkaa SELinux Firefox-laajennusrajoituksen käyttöä sen sijaan, "
++"että käytät mozplugger-pakettia"
+ 
+ #: ../src/mozplugger_remove.py:45
+ msgid "you must remove the mozplugger package."
+@@ -1369,6 +1990,11 @@ msgid ""
+ "    is labeled correctly.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE: n pyytämän pääsyn. $TARGET_PATH saattaa\n"
++"olla väärin nimiöity. openvpn saa lukea kotihakemiston sisältöä, jos se\n"
++"on nimiöity oikein.\n"
++"    "
+ 
+ #: ../src/openvpn.py:41
+ msgid ""
+@@ -1391,20 +2017,24 @@ msgid ""
+ "If you want to mv $TARGET_BASE_PATH to standard location so that "
+ "$SOURCE_BASE_PATH can have $ACCESS access"
+ msgstr ""
++"Jos haluat siirtää $TARGET_BASE_PATH oletussijaintiin, jotta "
++"$SOURCE_BASE_PATH voi käyttää $ACCESS -käyttöoikeutta"
+ 
+ #: ../src/openvpn.py:51
+ msgid ""
+ "If you want to modify the label on $TARGET_BASE_PATH so that "
+ "$SOURCE_BASE_PATH can have $ACCESS access on it"
+ msgstr ""
++"Jos haluat muokata $TARGET_BASE_PATH-nimiötä siten, että $SOURCE_BASE_PATH:"
++"lla voi olla $ACCESS-käyttöoikeus siihen"
+ 
+ #: ../src/openvpn.py:55
+ msgid "you must move the cert file to the ~/.cert directory"
+-msgstr ""
++msgstr "sinun on siirrettävä varmennetiedosto ~/.cert-hakemistoon"
+ 
+ #: ../src/openvpn.py:57 ../src/sshd_root.py:48
+ msgid "you must fix the labels."
+-msgstr ""
++msgstr "sinun täytyy korjata nimiöt."
+ 
+ #: ../src/public_content.py:31
+ msgid ""
+@@ -1417,6 +2047,14 @@ msgid ""
+ "    allow this access, this could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi pääsyn $TARGET_PATH:een, jota $SOURCE pyysi.\n"
++"$TARGET_PATH sisältää kontekstin, jota käytetään jakamiseen toisen ohjelman "
++"kautta. Jos sinä\n"
++"haluaa jakaa myös $TARGET_PATH kohteesta $SOURCE, sinun täytyy\n"
++"muuta tiedostokontekstiksi public_content_t. Jos et aikonut\n"
++"sallia tätä pääsyä, se voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/public_content.py:39
+ msgid ""
+@@ -1428,16 +2066,25 @@ msgid ""
+ "public_content_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -t "
++"public_content_t '$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"public_content_t '$FIX_TARGET_PATH' \"\n"
++"    "
+ 
+ #: ../src/public_content.py:50
+ msgid "If you want to treat $TARGET_BASE_PATH as public content"
+-msgstr ""
++msgstr "Jos haluat käsitellä $TARGET_BASE_PATH:ia julkisena sisältönä"
+ 
+ #: ../src/public_content.py:51
+ msgid ""
+ "You need to change the label on $TARGET_BASE_PATH to public_content_t or "
+ "public_content_rw_t."
+ msgstr ""
++"Sinun on vaihdettava nimiö kohteeseen $TARGET_BASE_PATH arvoksi "
++"public_content_t tai public_content_rw_t."
+ 
+ #: ../src/qemu_blk_image.py:31
+ msgid ""
+@@ -1452,6 +2099,16 @@ msgid ""
+ "    image it could indicate either a bug or an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi svirt-pääsyn lohkolaitteeseen $TARGET_PATH.\n"
++"Jos tämä on virtualisointilevykuva, se on nimiöitävä virtualisointitiedoston "
++"kontekstilla (virt_image_t). Voit nimiöidä $TARGET_PATH uudelleen "
++"virt_image_t:ksi chcon:illa. Sinun on myös suoritettava semanage fcontext -a "
++"-t virt_image_t '$FIX_TARGET_PATH' \n"
++"lisätäksesitämän uuden polun järjestelmän oletusasetuksiin. Jos et aikonut "
++"käyttää $TARGET_PATH virtualisointilevykuvana\n"
++"tämä voi olla merkki virhestä tai tunkeutumisyrityksestä.\n"
++"    "
+ 
+ #: ../src/qemu_blk_image.py:38 ../src/qemu_file_image.py:41
+ msgid ""
+@@ -1463,16 +2120,25 @@ msgid ""
+ "virt_image_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -t virt_image_t "
++"'$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"virt_image_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/qemu_blk_image.py:46
+ msgid ""
+ "# semanage fcontext -a -t virt_image_t '$FIX_TARGET_PATH'\n"
+ "# restorecon -v '$FIX_TARGET_PATH'"
+ msgstr ""
++"# semanage fcontext -a -t virt_image_t '$FIX_TARGET_PATH'\n"
++"# restorecon -v '$FIX_TARGET_PATH'"
+ 
+ #: ../src/qemu_blk_image.py:53 ../src/qemu_file_image.py:57
+ msgid "Set the image label to virt_image_t."
+-msgstr ""
++msgstr "Aseta levykuvan nimiöksi virt_image_t."
+ 
+ #: ../src/qemu_file_image.py:31
+ msgid ""
+@@ -1493,10 +2159,26 @@ msgid ""
+ "    image it could indicate either a bug or an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi svirt-pääsyn kohteeseen $TARGET_PATH.\n"
++"Jos tämä on virtualisointilevykuva, sillä on oltava tiedoston "
++"kontekstinimiö\n"
++"virt_image_t. Järjestelmä on asetettu merkitsemään levykuvatiedostot "
++"hakemistoon. /var/lib/libvirt/images\n"
++"oikein. Suosittelemme, että kopioit levykuvatiedostosi hakemistoon /var/lib/"
++"libvirt/images.\n"
++"Jos todella haluat, että levykuvatiedostosi ovat nykyisessä hakemistossa, "
++"voit merkitä $TARGET_PATH uudelleen virt_image_t: ksi chcon:illa. Sinun on "
++"myös suoritettava semanage fcontext -a -t virt_image_t '$FIX_TARGET_PATH' "
++"lisätäksesi tämä\n"
++"uusi polku järjestelmän oletusasetuksiin. Jos et aikonut käyttää "
++"$TARGET_PATH virtualisointilevykuvana\n"
++"tämä voi olla joko virhen tai tunkeutumisyritys.\n"
++"    "
+ 
+ #: ../src/qemu_file_image.py:48
+ msgid "If $TARGET_BASE_PATH is a virtualization target"
+-msgstr ""
++msgstr "Jos $TARGET_BASE_PATH on virtualisointikohde"
+ 
+ #: ../src/restorecon.py:57
+ msgid ""
+@@ -1508,6 +2190,13 @@ msgid ""
+ "    you can recursively restore using restorecon -R '$TARGET_PATH'.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit palauttaa järjestelmän oletuskontekstin tähän tiedostoon "
++"suorittamalla\n"
++"restorecon-komennon. restorecon '$TARGET_PATH', jos tämä tiedosto on "
++"hakemisto,\n"
++"voit palauttaa rekursiivisesti käyttämällä restorecon -R '$TARGET_PATH'.\n"
++"    "
+ 
+ #: ../src/restorecon.py:64
+ #, python-format
+@@ -1549,6 +2238,41 @@ msgid ""
+ "package.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE:n pyytämän pääsyn. $TARGET_PATH saattaa\n"
++"    olla väärin nimiöity. $TARGET_PATH SELinuxin oletustyyppi on\n"
++"    <B>%s</B>, mutta sen nykyinen tyyppi on <B>$TARGET_TYPE</B>. \n"
++"    Tämä tiedosto vaihtaminen takaisin oletustyyppiin voi korjata "
++"ongelmasi.\n"
++"    <p>\n"
++"    Tiedostokontekstit voidaan määrittää tiedostolle seuraavilla tavoilla.\n"
++"    <ul>\n"
++"        <li>Hakemistoon luodut tiedostot vastaanottavat oletuksena "
++"isäntähakemiston tiedostokontekstin.\n"
++"        <li>SELinux-käytäntö saattaa ohittaa isäntähakemista perityn "
++"oletusnimiön\n"
++"            määrittämällä kontekstissa A käynnissä oleva prosessin, joka luo "
++"tiedoston hakemistoon joko on nimiöity B\n"
++"            sen sijaan luo tiedoston nimiöllä C. Esimerkki tästä on "
++"käynnissä oleva dhcp-asiakas\n"
++"            dhcpc_t-tyypillä joka luo tiedoston hakemistoon /etc. Tämä "
++"tiedosto saisi normaalisti\n"
++"            etc_t-tyypin isännältä perittynä, mutta sen sijaan tiedosto\n"
++"            nimiöidään net_conf_t-tyypillä, koska SELinux-käytäntö "
++"määrittelee näin.\n"
++"        <li>Käyttäjät voivat muuttaa tiedoston tiedostokontekstia "
++"esimerkiksi chcon- tai restorecon-työkaluilla.\n"
++"    </ul>\n"
++"    Tämä tiedosto on voitu nimiöidä väärin joko käyttäjän virheestä tai "
++"normaalisti suljettua sovellusta\n"
++"    ajettiin väärässä toimialueessa.\n"
++"    <p>\n"
++"    Tämä saattaa kuitenkin osoittaa myös virheen SELinuxissa, koska "
++"tiedostoa ei olisi pitänyt nimiöidä\n"
++"    tällä tyypillä.\n"
++"    <p>\n"
++"    Jos tämä on mielestäsi vika, lähetä vikailmoitus tätä pakettia vastaan.\n"
++"    "
+ 
+ #: ../src/restorecon.py:90
+ #, python-format
+@@ -1556,6 +2280,8 @@ msgid ""
+ "If you want to fix the label. \n"
+ "$TARGET_PATH default label should be %s."
+ msgstr ""
++"Jos haluat korjata nimiön.\n"
++"Oletusnimiön $TARGET_PATH tulee olla %s."
+ 
+ #: ../src/restorecon.py:96
+ msgid ""
+@@ -1563,12 +2289,17 @@ msgid ""
+ "insufficient permissions to access a parent directory in which case try to "
+ "change the following command accordingly."
+ msgstr ""
++"voit suorittaa restorecon:in. Pääsyyritys on saatettu keskeyttää, koska "
++"isäntähakemistojen käyttöoikeudet eivät ole riittävät, tässä tapauksessa "
++"yritä muuttaa seuraava komento vastaavasti."
+ 
+ #: ../src/restorecon.py:105 ../src/restorecon_source.py:73
+ msgid ""
+ "Restore\n"
+ "Context"
+ msgstr ""
++"Palauta \n"
++"Konteksti"
+ 
+ #: ../src/restorecon_source.py:39
+ msgid ""
+@@ -1578,6 +2309,11 @@ msgid ""
+ "    restorecon command.  restorecon '$SOURCE_PATH'.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit palauttaa järjestelmän oletuskontekstin tähän tiedostoon "
++"suorittamalla\n"
++"restorecon-komennon: restorecon '$SOURCE_PATH'.\n"
++"    "
+ 
+ #: ../src/restorecon_source.py:45
+ #, python-format
+@@ -1600,6 +2336,24 @@ msgid ""
+ "package.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE: n pyytämän pääsyn. $SOURCE_PATH saattaa\n"
++"olla väärin nimiöity. $SOURCE_PATH SELinux  oletustyyppi on\n"
++"     <B>%s</B>, mutta sen nykyinen tyyppi on <B>$SOURCE_TYPE</B>.\n"
++"    Tämän tiedosto vaihtaminen takaisin oletustyyppiin voi korjata "
++"ongelmasi.\n"
++"     <p>\n"
++"     Tämä tiedosto on voitu nimiöidä väärin joko käyttäjän virheestä tai "
++"normaalisti suljetun sovelluksen vuoksi\n"
++"     jota suoritettiin väärässä toimialueessa.\n"
++"     <p>\n"
++"     Tämä saattaa kuitenkin osoittaa myös virheen SELinuxissa, koska "
++"tiedostoa ei olisi pitänyt nimiöidä\n"
++"     tämän tyyppiseksi.\n"
++"     <p>\n"
++"     Jos tämä on mielestäsi vika, lähetä vikailmoitus tätä pakettia "
++"vastaan.\n"
++"    "
+ 
+ #: ../src/restorecon_source.py:60
+ #, python-format
+@@ -1607,10 +2361,12 @@ msgid ""
+ "If you want to fix the label. \n"
+ "$SOURCE_PATH default label should be %s."
+ msgstr ""
++"Jos haluat korjata nimiön.\n"
++"Oletusnimiön $SOURCE_PATH tulee olla %s."
+ 
+ #: ../src/restorecon_source.py:65
+ msgid "you can run restorecon."
+-msgstr ""
++msgstr "voit suorittaa: restorecon."
+ 
+ #: ../src/rsync_data.py:31
+ msgid ""
+@@ -1622,6 +2378,12 @@ msgid ""
+ "    this message could indicate either a bug or an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi RSYNC-pääsyn kohteeseen $TARGET_PATH.\n"
++"Jos tämä on RSYNC-ohjelmistolähde, sillä on oltava tiedoston kontekstinimiö\n"
++"rsync_data_t. Jos et aikonut käyttää $TARGET_PATH RSYNC-ohjelmistolähteenä,\n"
++"voi tämä viesti olla osoitus joko virheestä tai tunkeutumisyrityksestä.\n"
++"    "
+ 
+ #: ../src/rsync_data.py:38
+ msgid ""
+@@ -1633,14 +2395,21 @@ msgid ""
+ "rsync_data_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -R -t rsync_data_t "
++"'$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"rsync_data_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/rsync_data.py:45
+ msgid "If $TARGET_BASE_PATH should be shared via the RSYNC daemon"
+-msgstr ""
++msgstr "Jos $TARGET_BASE_PATH pitäisi jakaa RSYNC-demonin kautta"
+ 
+ #: ../src/rsync_data.py:46
+ msgid "You need to change the label on $TARGET_BASE_PATH"
+-msgstr ""
++msgstr "Sinun on vaihdettava nimiö kohteelle $TARGET_BASE_PATH"
+ 
+ #: ../src/samba_share.py:27
+ msgid ""
+@@ -1649,6 +2418,10 @@ msgid ""
+ "$TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää Samban ($SOURCE_PATH) \"$ACCESS\" -käyttöoikeuden "
++"$TARGET_PATH -palveluun.\n"
++"    "
+ 
+ #: ../src/samba_share.py:31
+ msgid ""
+@@ -1663,6 +2436,16 @@ msgid ""
+ "Samba and SELinux.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi sambalta pääsyn kohteeseen $TARGET_PATH.\n"
++"Jos haluat jakaa tämän hakemiston samban kanssa, sillä on oltava tiedoston "
++"kontekstinimiö\n"
++"samba_share_t. Jos et aikonut käyttää $TARGET_PATH samba-"
++"ohjelmistolähteenä,\n"
++"voi tämä viesti olla osoitus joko virheestä tai tunkeutumisyrityksestä.\n"
++" Katso lisätietoja Samba- ja SELinux määrittämisestä kohdasta 'man "
++"samba_selinux'.\n"
++"    "
+ 
+ #: ../src/samba_share.py:39
+ msgid ""
+@@ -1674,6 +2457,13 @@ msgid ""
+ "samba_share_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -R -t "
++"samba_share_t '$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"samba_share_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/samba_share.py:53
+ #, python-format
+@@ -1681,6 +2471,8 @@ msgid ""
+ "# semanage fcontext -a -t samba_share_t '$FIX_TARGET_PATH%s'\n"
+ "# restorecon %s -v '$FIX_TARGET_PATH'"
+ msgstr ""
++"# semanage fcontext -a -t samba_share_t '$FIX_TARGET_PATH%s'\n"
++"# restorecon %s -v '$FIX_TARGET_PATH'"
+ 
+ #: ../src/sandbox_connect.py:33
+ msgid ""
+@@ -1696,6 +2488,18 @@ msgid ""
+ "    to connect to $PORT_NUMBER, this could signal an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on evännyt $SOURCE:n muodostamasta yhteyttä verkkoporttiin "
++"$PORT_NUMBER hiekkalaatikossa.\n"
++" Jos $SOURCE:n pitäisi sallia muodostaa yhteys osoitteeseen $PORT_NUMBER, "
++"sinun on käytettävä erilaista hiekkalaatikkotyyppiä, kuten sandbox_web_t tai "
++"sandbox_net_t.\n"
++"     # sandbox -X -t sandbox_net_t $SOURCE\n"
++"    \n"
++"\n"
++"Jos $SOURCE:n ei pitäisi yhdistyä\n"
++"porttiin $PORT_NUMBER tämä voi merkitä tunkeutumisyritystä.\n"
++"    "
+ 
+ #: ../src/sandbox_connect.py:41
+ msgid ""
+@@ -1706,6 +2510,12 @@ msgid ""
+ "    # sandbox -X -t sandbox_net_t $SOURCE\n"
+ "    "
+ msgstr ""
++"\n"
++"    Jos haluat antaa $SOURCE:n muodostaa yhteyden porttiin $PORT_NUMBER, "
++"voit suorittaa komennon:\n"
++"\n"
++"    # sandbox -X -t sandbox_net_t $SOURCE\n"
++"    "
+ 
+ #: ../src/sandbox_connect.py:49
+ msgid ""
+@@ -1714,6 +2524,10 @@ msgid ""
+ "sandbox -X -t sandbox_net_t $SOURCE_PATH\n"
+ "Please read 'sandbox' man page for more details.\n"
+ msgstr ""
++"sinun on muokattava hiekkalaatikkotyyppiä. sandbox_web_t tai sandbox_net_t.\n"
++"Esimerkiksi:\n"
++"sandbox -X -t sandbox_net_t $SOURCE_PATH\n"
++"Lue lisätietoja 'sandbox' man -sivulta.\n"
+ 
+ #: ../src/selinuxpolicy.py:29
+ msgid ""
+@@ -1721,6 +2535,9 @@ msgid ""
+ "    Your system may be seriously compromised!\n"
+ "    "
+ msgstr ""
++"\n"
++"    Järjestelmäsi saattaa olla vakavasti vaarantunut!\n"
++"    "
+ 
+ #: ../src/selinuxpolicy.py:33
+ msgid ""
+@@ -1735,14 +2552,24 @@ msgid ""
+ "    may very well be compromised.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:a muokkaamasta $TARGET:ia. Tämä kieltäminen\n"
++"osoittaa, että $SOURCE yritti muokata selinux-käytäntöasetuksia.\n"
++"Kaikilla sovelluksilla, jotka tarvitsevat tämän käyttöoikeuden, pitäisi jo "
++"olla käytäntö\n"
++"kirjoitettu sitä varten. Jos vaarantunut sovellus yrittää muokata "
++"SELinuxia,\n"
++"niin tämä AVC luodaan. Tämä on vakava asia. Järjestelmäsi\n"
++"voi hyvinkin olla vaarantunut.\n"
++"    "
+ 
+ #: ../src/setenforce.py:27
+ msgid "If you did not directly cause this AVC through testing."
+-msgstr ""
++msgstr "Jos et aiheuttanut tätä AVC:tä suoraan testauksen avulla."
+ 
+ #: ../src/setenforce.py:28
+ msgid "if you think that you might have been hacked"
+-msgstr ""
++msgstr "jos luulet, että sinut on voitu hakkeroida"
+ 
+ #: ../src/setenforce.py:32
+ msgid ""
+@@ -1751,6 +2578,10 @@ msgid ""
+ "SELinux enforcement.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Järjestelmäsi saattaa olla vakavasti vaarantunut! $SOURCE_PATH yritti "
++"muokata SELinux-pakotetta.\n"
++"    "
+ 
+ #: ../src/setenforce.py:36
+ msgid ""
+@@ -1767,16 +2598,30 @@ msgid ""
+ "    well be compromised.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:ta kirjoittamasta tiedostoon /sys/fs/selinux -"
++"kansiossa.\n"
++"Tiedostot /sys/fs/selinux -kansiossa hallitsevat tapaa, jolla SELinux "
++"määritetään.\n"
++"Kaikilla ohjelmilla, jotka on kirjoitettava tiedostoihin /sys/fs/selinux "
++"kansioon, pitäisi jo olla käytäntö\n"
++"kirjoitettu sitä varten. Jos vaarantunut sovellus yrittää sammuttaa "
++"SELinuxin,\n"
++"niin tämä AVC luodaan. Tämä on vakava asia. Järjestelmäsi voi hyvin\n"
++"olla vaarantunut.\n"
++"    "
+ 
+ #: ../src/setenforce.py:48
+ msgid "If you believe $SOURCE_PATH tried to disable SELinux."
+-msgstr ""
++msgstr "Jos uskot, että $SOURCE_PATH yritti poistaa SELinuxin käytöstä."
+ 
+ #: ../src/setenforce.py:49
+ msgid ""
+ "you may be under attack by a hacker, since confined applications should "
+ "never need this access."
+ msgstr ""
++"olet voinut joutua hakkerin hyökkäyksen kohteeksi, koska rajoitetuttujen "
++"sovellusten ei koskaan pitäisi tarvitse tätä käyttöoikeutta."
+ 
+ #: ../src/sshd_root.py:36
+ msgid ""
+@@ -1812,7 +2657,7 @@ msgstr ""
+ 
+ #: ../src/sshd_root.py:55
+ msgid "Restore Context"
+-msgstr ""
++msgstr "Palauta konteksti"
+ 
+ #: ../src/swapfile.py:27
+ msgid ""
+@@ -1820,6 +2665,10 @@ msgid ""
+ "    SELinux is preventing $SOURCE_PATH \"$ACCESS\" to $TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH \"$ACCESS\" -käyttöoikeuden $TARGET_PATH:"
++"oon.\n"
++"    "
+ 
+ #: ../src/swapfile.py:31
+ msgid ""
+@@ -1831,6 +2680,13 @@ msgid ""
+ "an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi $SOURCE -käyttöoikeuden kohteeseen $TARGET_PATH.\n"
++"Jos tämä on näennäistiedosto, sillä on oltava tiedoston kontekstinimiö\n"
++"     swapfile_t. Jos et aikonut käyttää\n"
++"     $TARGET_PATH:ia swap-tiedostona, voi tämä viesti osoittaa joko virheen "
++"tai tunkeutumisyrityksen.\n"
++"    "
+ 
+ #: ../src/swapfile.py:38
+ msgid ""
+@@ -1842,16 +2698,25 @@ msgid ""
+ "swapfile_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -t swapfile_t "
++"'$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"swapfile_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/sys_module.py:28
+ msgid ""
+ "If you do not believe your $SOURCE_PATH should be modifying the kernel, by "
+ "loading kernel modules"
+ msgstr ""
++"Jos et usko, että $SOURCE_PATH:n pitäisi muuttaa ydintä, lataamalla ytimen "
++"moduulit"
+ 
+ #: ../src/sys_module.py:29
+ msgid "You might have been hacked."
+-msgstr ""
++msgstr "Sinua on ehkä hakkeroitu."
+ 
+ #: ../src/sys_module.py:33
+ msgid ""
+@@ -1860,6 +2725,10 @@ msgid ""
+ "kernel module.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Järjestelmäsi saattaa olla vakavasti vaarantunut!  $SOURCE_PATH yritti "
++"ladata ytimen moduulia.\n"
++"    "
+ 
+ #: ../src/sys_module.py:37
+ msgid ""
+@@ -1873,16 +2742,26 @@ msgid ""
+ "    issue. Your system may very well be compromised.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt $SOURCE:a lataamasta ytimen moduulia.\n"
++"Kaikilla suljetuilla ohjelmilla, joiden tarvitsee ladata ytimen moduuleja, "
++"pitäisi jo olla käytäntö\n"
++"kirjoitettu sitä varten. Jos vaarantunut sovellus\n"
++"yrittää muokata ydintä, niin tämä AVC luodaan. Tämä on vakava\n"
++"ongelma. Järjestelmäsi voi hyvinkin olla vaarantunut.\n"
++"    "
+ 
+ #: ../src/sys_module.py:46
+ msgid ""
+ "If you do not believe that $SOURCE_PATH should be attempting to modify the "
+ "kernel by loading a kernel module."
+ msgstr ""
++"Jos et usko, että $SOURCE_PATH:n pitäisi yrittää muokata ydintä lataamalla "
++"ytimen moduuli."
+ 
+ #: ../src/sys_module.py:47
+ msgid "A process might be attempting to hack into your system."
+-msgstr ""
++msgstr "Prosessi saattaa yrittää hakkeroida järjestelmääsi."
+ 
+ #: ../src/sys_resource.py:28
+ msgid ""
+@@ -1890,6 +2769,9 @@ msgid ""
+ "    SELinux is preventing $SOURCE_PATH the \"sys_resource\" capability.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää $SOURCE_PATH \"sys_resource\" -kyvyn.\n"
++"    "
+ 
+ #: ../src/sys_resource.py:32
+ msgid ""
+@@ -1901,12 +2783,22 @@ msgid ""
+ "disk space, please report this as a bug.\n"
+ "    "
+ msgstr ""
++"\n"
++"    Rajoitettujen toimialueiden ei pitäisi pyytää \"sys_resource\". Tämä "
++"tarkoittaa yleensä, että järjestelmässäsi on loppumassa jokin "
++"järjestelmäresurssi, kuten levytila, muisti, kiintiö jne. Ole hyvä ja "
++"tyhjennä levy ja tämän\n"
++"AVC-viestin pitäisi poistua. Jos tämä AVC jatkuu levytilan tyhjentämisen "
++"jälkeen, ilmoita siitä virheenä.\n"
++"    "
+ 
+ #: ../src/sys_resource.py:39
+ msgid ""
+ "If you do not want processes to require capabilities to use up all the "
+ "system resources on your system;"
+ msgstr ""
++"Jos et halua prosessien vaativan valmiuksia käyttää kaikkia järjestelmän "
++"järjestelmäresursseja;"
+ 
+ #: ../src/sys_resource.py:40
+ msgid ""
+@@ -1927,6 +2819,25 @@ msgid ""
+ "/* Override max number of consoles on console allocation */\n"
+ "/* Override max number of keymaps */\n"
+ msgstr ""
++"sinun on diagnosoitava, miksi järjestelmässäsi resurssit loppuvat, ja "
++"korjattava ongelma.\n"
++"\n"
++"Sivuston /usr/include/linux/capability.h mukaan sys_resource vaaditaan "
++"halutessa:\n"
++"\n"
++"/ * Ohita resurssirajat. Aseta resurssirajat. * /\n"
++"/ * Ohita kiintiörajat. * /\n"
++"/ * Ohita varattu tila ext2-tiedostojärjestelmässä * /\n"
++"/ * Muokkaa datan kirjaustilaa ext3-tiedostojärjestelmässä (käyttää "
++"kirjausta\n"
++"    resurssit) * /\n"
++"/ * HUOMAUTUS: ext2 kunnioittaa fsuidia tarkistaessaan resurssien ohituksia, "
++"joten\n"
++"    voit ohittaa myös fsuid * /\n"
++"/ * Ohita IPC-viestijonojen kokorajoitukset * /\n"
++"/ * Salli yli 64 Hz:n keskeytykset reaaliaikakellosta * /\n"
++"/ * Ohita konsolien enimmäismäärä konsoleissa * /\n"
++"/ * Ohita näppäinkarttojen enimmäismäärä * /\n"
+ 
+ #: ../src/vbetool.py:30
+ msgid ""
+@@ -1935,6 +2846,9 @@ msgid ""
+ "operation.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt vbetoolia suorittamasta vaarallista muistitoimintoa.\n"
++"    "
+ 
+ #: ../src/vbetool.py:34
+ msgid ""
+@@ -1949,6 +2863,18 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"SELinux eväsi $SOURCE:n pyytämän toiminnon\n"
++"muuttaa videolaitteiston tilaa. Tämän ohjelman tiedetään käyttävän\n"
++"vaarallista toimintaa järjestelmän muistissa, mutta niin haluavat myös "
++"monet\n"
++"haittaohjelmat/hyväksikäyttöohjelmat vbetooliksi naamioituina. Tätä työkalua "
++"käytetään\n"
++"nollaamaan videotila, kun kone palautuu keskeytyksestä. Jos koneesi\n"
++"ei palaudu kunnolla, ainoa valinta on sallia tämä toiminto\n"
++"ja vähentää järjestelmän turvallisuutta tällaisia haittaohjelmia vastaan.\n"
++"\n"
++"    "
+ 
+ #: ../src/vbetool.py:45 ../src/wine.py:56
+ msgid ""
+@@ -1959,22 +2885,32 @@ msgid ""
+ "\n"
+ "# setsebool -P mmap_low_allowed 1\n"
+ msgstr ""
++"\n"
++"Jos päätät jatkaa kyseisen ohjelman suorittamista sinun pitää sallia\n"
++"tämä toiminto. Tämä voidaan tehdä komentoriviltä\n"
++"suorittamalla:\n"
++"\n"
++"# setsebool -P mmap_low_allowed 1\n"
+ 
+ #: ../src/vbetool.py:55
+ msgid ""
+ "If you want to ignore this AVC because it is dangerous and your machine "
+ "seems to be working correctly."
+ msgstr ""
++"Jos haluat jättää tämän AVC: n huomiotta, koska se on vaarallinen ja koneesi "
++"näyttää toimivan oikein."
+ 
+ #: ../src/vbetool.py:56
+ msgid ""
+ "you must tell SELinux about this by enabling the vbetool_mmap_zero_ignore "
+ "boolean."
+ msgstr ""
++"sinun on kerrottava tästä SELinuxille ottamalla käyttöön "
++"vbetool_mmap_zero_ignore totuusarvo."
+ 
+ #: ../src/vbetool.py:62 ../src/wine.py:73
+ msgid "Turn off memory protection"
+-msgstr ""
++msgstr "Poista muistisuojaus käytöstä"
+ 
+ #: ../src/wine.py:31
+ msgid ""
+@@ -1982,6 +2918,9 @@ msgid ""
+ "    SELinux has prevented wine from performing an unsafe memory operation.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux on estänyt wine:a suorittamasta vaarallisia muistitoimintoja.\n"
++"    "
+ 
+ #: ../src/wine.py:35
+ msgid ""
+@@ -2006,18 +2945,44 @@ msgid ""
+ "\n"
+ "    "
+ msgstr ""
++"\n"
++"SELinux eväsi ohjelman Wine-preloader pyytämän toiminnon, ohjelman avulla\n"
++"suoritetaan Windows-sovelluksia Linuxissa. Tämän ohjelman tiedetään "
++"käyttävän\n"
++"vaarallista toimintaa järjestelmän muistissa, mutta niin käyttävät myös "
++"monet\n"
++"haittaohjelmat/hyödytämisohjelmat wineksi naamioituneena. Jos yritit\n"
++"suorittaa Windows-ohjelmaa, ainoat vaihtoehtosi on sallia tämä\n"
++"ja vähentää järjestelmän suojausta tällaisilta haittaohjelmilta tai\n"
++"pidättäydy Windows-sovellusten ajamisesta Linuxissa. Jos et yrittänyt\n"
++"suorittaa Windows-sovellusta, tarkoittaa se todennäköisesti sitä, että\n"
++"jotkut hyökkäävät haittaohjelmia tai hyväksikäyttöohjelmia käyttäen, \n"
++"yrittäen käyttää sinun järjestelmääsi turhiin tarkoituksiin.\n"
++"\n"
++"Ole hyvä ja katso\n"
++"\n"
++"http://wiki.winehq.org/PreloaderPageZeroProblem\n"
++"\n"
++"Mikä hahmottaa muut wine ongelmat sen epäturvallisen muistin \n"
++"käytön vuoksi ja ratkaisuja näihin ongelmiin.\n"
++"\n"
++"    "
+ 
+ #: ../src/wine.py:66
+ msgid ""
+ "If you want to ignore this AVC because it is dangerous and your wine "
+ "applications are working correctly."
+ msgstr ""
++"Jos haluat jättää tämän AVC: n huomiotta, koska se on vaarallista ja wine-"
++"sovelluksesi toimivat oikein."
+ 
+ #: ../src/wine.py:67
+ msgid ""
+ "you must tell SELinux about this by enabling the wine_mmap_zero_ignore "
+ "boolean."
+ msgstr ""
++"sinun on kerrottava tästä SELinuxille ottamalla käyttöön "
++"wine_mmap_zero_ignore totuusarvo."
+ 
+ #: ../src/xen_image.py:27
+ msgid ""
+@@ -2026,6 +2991,9 @@ msgid ""
+ "$TARGET_PATH.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux estää xen ($SOURCE_PATH) \"$ACCESS\" -pääsyn $TARGET_PATH:iin.\n"
++"    "
+ 
+ #: ../src/xen_image.py:31
+ msgid ""
+@@ -2045,6 +3013,21 @@ msgid ""
+ "    image it could indicate either a bug or an intrusion attempt.\n"
+ "    "
+ msgstr ""
++"\n"
++"    SELinux eväsi xen:iltä käyttöoikeuden kohteeseen $TARGET_PATH.\n"
++"Jos tämä on XEN-levykuva, sillä on oltava tiedoston kontekstinimiö\n"
++"xen_image_t. Järjestelmä on asetettu nimiöimään levykuvatiedostot "
++"hakemistossa /var/lib/xen/images\n"
++"oikein. Suosittelemme, että kopioit levykuvatiedostosi hakemistoon /var/lib/"
++"xen/images.\n"
++"Jos haluat todella, että xen-levykuvatiedostosi ovat nykyisessä "
++"hakemistossa, voit nimiöidä $TARGET_PATH uudelleen xen_image_t:ksi chcon:"
++"illa. Sinun on myös suoritettava semanage fcontext -a -t xen_image_t "
++"'$FIX_TARGET_PATH' lisätäksesi tämän\n"
++"uuden polun järjestelmän oletuksiin. Jos et aikonut käyttää $TARGET_PATH "
++"xen\n"
++"levykuvana, voi se osoittaa joko virheen tai tunkeutumisyrityksen.\n"
++"    "
+ 
+ #: ../src/xen_image.py:41
+ msgid ""
+@@ -2056,7 +3039,14 @@ msgid ""
+ "xen_image_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ msgstr ""
++"\n"
++"    Voit muuttaa tiedoston kontekstia suorittamalla chcon -t xen_image_t "
++"'$TARGET_PATH'\n"
++"Sinun on myös muutettava järjestelmän oletustiedostokontekstit, jotta ne "
++"säilyvät myös täydessä uudelleennimiöinnissä. \"semanage fcontext -a -t "
++"xen_image_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/xen_image.py:56
+ msgid "Change the file label to xen_image_t."
+-msgstr ""
++msgstr "Vaihda tiedostotunnisteeksi xen_image_t."
+diff --git a/po/fr.po b/po/fr.po
+index af6e888..f29840d 100644
+--- a/po/fr.po
++++ b/po/fr.po
+@@ -20,9 +20,9 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2020-10-17 07:15+0000\n"
+-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-16 04:05+0000\n"
++"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+ "Language-Team: French <https://translate.fedoraproject.org/projects/"
+ "setroubleshoot/plugins/fr/>\n"
+ "Language: fr\n"
+@@ -30,7 +30,7 @@ msgstr ""
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=2; plural=n > 1;\n"
+-"X-Generator: Weblate 4.3\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -1201,10 +1201,10 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"\\tdac_override et dac_read_search indiquent habituellement que le processus "
+-"root n'a pas accès à un fichier basé sur les indicateurs de permission.  "
+-"Normalement, cela signifie que vous possédez un fichier avec de mauvaises "
+-"propriétés/permissions.\n"
++"\t\\\tdac_override et dac_read_search indiquent habituellement que le "
++"processus root n'a pas accès à un fichier basé sur les indicateurs de "
++"permission.  Normalement, cela signifie que vous possédez un fichier avec de "
++"mauvaises propriétés/permissions.\n"
+ "    "
+ 
+ #: ../src/dac_override.py:38
+diff --git a/po/fur.po b/po/fur.po
+index fb6148f..e8a8e07 100644
+--- a/po/fur.po
++++ b/po/fur.po
+@@ -3,7 +3,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2019-12-28 03:22-0500\n"
+ "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+ "Language-Team: Friulian\n"
+diff --git a/po/gl.po b/po/gl.po
+index 7438e09..2ad55eb 100644
+--- a/po/gl.po
++++ b/po/gl.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/gu.po b/po/gu.po
+index 5f4cf6c..a643636 100644
+--- a/po/gu.po
++++ b/po/gu.po
+@@ -12,7 +12,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Gujarati (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/he.po b/po/he.po
+index 83dc2dc..342e42e 100644
+--- a/po/he.po
++++ b/po/he.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/hi.po b/po/hi.po
+index fbf7fae..91aa1ab 100644
+--- a/po/hi.po
++++ b/po/hi.po
+@@ -14,7 +14,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Hindi (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/hr.po b/po/hr.po
+index 3a511eb..178661d 100644
+--- a/po/hr.po
++++ b/po/hr.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/hu.po b/po/hu.po
+index 8bded48..92cb85c 100644
+--- a/po/hu.po
++++ b/po/hu.po
+@@ -14,7 +14,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Hungarian (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/it.po b/po/it.po
+index 6366eb4..43dc696 100644
+--- a/po/it.po
++++ b/po/it.po
+@@ -18,7 +18,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-08-19 03:09-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Italian (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/ja.po b/po/ja.po
+index e21ddcf..846a010 100644
+--- a/po/ja.po
++++ b/po/ja.po
+@@ -19,17 +19,17 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2020-07-24 04:27-0400\n"
+-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+-"Language-Team: Japanese (http://www.transifex.com/projects/p/fedora/language/"
+-"ja/)\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-17 07:27+0000\n"
++"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
++"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
++"setroubleshoot/plugins/ja/>\n"
+ "Language: ja\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Generator: Zanata 4.6.2\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -39,10 +39,10 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux ポリシーにより、httpd スクリプトのパブリックディレクトリーへの書き込"
+-"みが\n"
++"    SELinux ポリシーにより、httpd スクリプトのパブリックディレクトリーへの書"
++"き込みが\n"
+ "拒否されます。\n"
+-"     "
++"    "
+ 
+ #: ../src/allow_anon_write.py:32
+ msgid ""
+@@ -53,10 +53,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux ポリシーにより、httpd スクリプトのパブリックディレクトリーへの書き込"
+-"みが\n"
+-"拒否されます。 httpd に、パブリックディレクトリーへの書き込みが設定されていな"
+-"い\n"
++"    SELinux ポリシーにより、httpd スクリプトのパブリックディレクトリーへの書き込みが\n"
++"拒否されます。 httpd に、パブリックディレクトリーへの書き込みが設定されていない\n"
+ "場合は、 セキュリティ侵害の試みがなされた可能性があります。\n"
+ "    "
+ 
+@@ -74,15 +72,16 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"httpd スクリプトによるパブリックディレクトリーへの書き込みを許可する場合、 "
+-"$BOOLEAN boolean をオンにして、パブリックディレクトリーのファイルコンテキスト"
+-"を public_content_rw_t に変更する必要があります。 詳細については "
++"    httpd スクリプトによるパブリックディレクトリーへの書き込みを許可する場"
++"合、 $BOOLEAN boolean をオンにして、パブリックディレクトリーのファイルコンテ"
++"キストを public_content_rw_t に変更する必要があります。 詳細については "
+ "httpd_selinux の man ページをご覧ください:\n"
+ "\"setsebool -P $BOOLEAN=1; chcon -t public_content_rw_t<path>\"\n"
+ "また、 完全な再ラベル付けを行なった後もパブリックディレクトリーのラベルを維持"
+ "させたい場合は、 システムのデフォルトのファイルコンテキストラベル設定ファイル"
+ "も変更する必要があります。 \"semanage fcontext -a -t public_content_rw_t "
+-"<path>\""
++"<path>\"\n"
++"    "
+ 
+ #: ../src/allow_anon_write.py:44
+ msgid ""
+@@ -107,9 +106,9 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     SELinux は、$SOURCE_PATH が、ヒープのメモリーへのアクセス保護を\n"
++"    SELinux は、$SOURCE_PATH が、ヒープのメモリーへのアクセス保護を\n"
+ "     変更することを阻止しています。\n"
+-"     "
++"    "
+ 
+ #: ../src/allow_execheap.py:32
+ msgid ""
+@@ -265,14 +264,12 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    $TARGET_PATH が正しく実行することを信用できる場合は、ファイルコンテキスト"
+-"を \n"
++"    $TARGET_PATH が正しく実行することを信用できる場合は、ファイルコンテキストを \n"
+ "    textrel_shlib_t へ変更することができます。\"chcon -t textrel_shlib_t\n"
+ "     '$TARGET_PATH'\"\n"
+-"    また、システムのデフォルトファイルコンテキストのファイルを、完全な再ラベ"
+-"ルでも保持するために、変更しなければなりません。\"semanage fcontext -a -t "
+-"textrel_shlib_t '$FIX_TARGET_PATH'\"\n"
+-"    \n"
++"    また、システムのデフォルトファイルコンテキストのファイルを、完全な再ラベルでも保持するために、変更しなければなりません。\"semanage "
++"fcontext -a -t textrel_shlib_t '$FIX_TARGET_PATH'\"\n"
++"\n"
+ "    "
+ 
+ #: ../src/allow_execmod.py:114
+@@ -349,7 +346,7 @@ msgstr ""
+ "    それを消去できます。その後にアプリケーションを再試行して下さい。\n"
+ "    アプリケーションが機能しない状態が継続する場合は、\n"
+ "    execstack -s LIBRARY_PATH でフラグを戻すことができます。\n"
+-"     "
++"    "
+ 
+ #: ../src/allow_execstack.py:89
+ msgid ""
+@@ -404,9 +401,9 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     SELinux は、$ACCESS から、CIFS ファイルシステム上に保存されているファイ"
+-"ルへ、ftp デーモンがアクセスするのを阻止しました。\n"
+-"      "
++"    SELinux は、$ACCESS から、CIFS ファイルシステム上に保存されているファイル"
++"へ、ftp デーモンがアクセスするのを阻止しました。\n"
++"    "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:33
+ msgid ""
+@@ -468,13 +465,13 @@ msgid ""
+ "    directories with type public_content_t) in addition to writing to\n"
+ "    files and directories on CIFS filesystems.  "
+ msgstr ""
+-"\"$BOOLEAN\" および \"$WRITE_BOOLEAN\" の boolean を true に変更すると、 \n"
++" \"$BOOLEAN\" および \"$WRITE_BOOLEAN\" の boolean を true に変更すると、 \n"
+ "このアクセスが許可されます:\n"
+ "\"setsebool -P $BOOLEAN=1 $WRITE_BOOLEAN=1\"\n"
+ "警告: \"$WRITE_BOOLEAN\" の boolean を true に設定すると、 CIFS \n"
+ "ファイルシステム上のファイルやディレクトリーへの書き込みに加えて、 \n"
+ "すべての公開コンテンツ (タイプが public_content_t のファイルと\n"
+-"ディレクトリー) への書き込みも、ftp デーモンに許可することになります。"
++"ディレクトリー) への書き込みも、ftp デーモンに許可することになります。  "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:62
+ msgid "If you want to allow ftpd to write to cifs file systems"
+@@ -660,7 +657,7 @@ msgstr ""
+ "     設定ファイルである場合は、bin_t のファイルラベルを持つ必要があります。\n"
+ "      自動マウンターが想定されていないものを実行しようとしている場合は、\n"
+ "     これは不正侵入を示唆している可能性があります。\n"
+-"     "
++"    "
+ 
+ #: ../src/automount_exec_config.py:39
+ msgid ""
+@@ -762,7 +759,7 @@ msgid ""
+ "    where PORT_TYPE is one of the following: %s."
+ msgstr ""
+ "# semanage port -a -t PORT_TYPE -p %s $PORT_NUMBER\n"
+-"　　ここで、PORT_TYPE は 以下のいずれかとなります: %s    "
++"　　ここで、PORT_TYPE は 以下のいずれかとなります: %s。"
+ 
+ #: ../src/bind_ports.py:56 ../src/connect_ports.py:54
+ #, python-format
+@@ -886,8 +883,7 @@ msgstr ""
+ #: ../src/catchall.py:29 ../src/chrome.py:29 ../src/mozplugger.py:29
+ #: ../src/mozplugger_remove.py:29
+ msgid "SELinux is preventing $SOURCE_PATH \"$ACCESS\" access."
+-msgstr ""
+-"SELinux は、$SOURCE_PATH による \"$ACCESS\" アクセスを阻止しています。    "
++msgstr "SELinux は、$SOURCE_PATH による \"$ACCESS\" アクセスを阻止しています。"
+ 
+ #: ../src/catchall.py:31
+ msgid ""
+@@ -1064,7 +1060,7 @@ msgstr ""
+ "必要とする mozilla-plugins 内でアプリケーションを実行し、mozilla_plugin ロッ"
+ "クダウンは許可されないことから、mozilla_plugin ロックダウンをオフにするか、こ"
+ "れらのパッケージを使用しないようにする必要があります。\n"
+-" "
++"    "
+ 
+ #: ../src/chrome.py:35
+ msgid ""
+@@ -1151,7 +1147,7 @@ msgstr ""
+ 
+ #: ../src/cvs_data.py:45 ../src/qemu_file_image.py:49
+ msgid "You need to change the label on $TARGET_BASE_PATH'"
+-msgstr "$TARGET_BASE_PATH' のラベルを変更する必要があります。"
++msgstr "$TARGET_BASE_PATH' のラベルを変更する必要があります"
+ 
+ #: ../src/cvs_data.py:54
+ msgid "Change label"
+@@ -1177,10 +1173,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-" \\tdac_override と dac_read_search の機能は通常、root プロセスがパーミッショ"
+-"ンフラグを基にしたファイルへのアクセスを持たないことを表示します。これは通"
+-"常、ユーザーがそのファイルに間違えた所有権/パーミッションを持っていることを意"
+-"味します。 \n"
++"\tdac_override と dac_read_search の機能は通常、root プロセスがパーミッションフラグを基にしたファイルへのアクセスを持"
++"たないことを表示します。これは通常、ユーザーがそのファイルに間違えた所有権/パーミッションを持っていることを意味します。\n"
+ "    "
+ 
+ #: ../src/dac_override.py:38
+@@ -1337,7 +1331,7 @@ msgid ""
+ "blacklist the module'"
+ msgstr ""
+ "/proc/sys/net/ipv6/conf/all/disable_ipv6 を 1 に設定する必要があり、モジュー"
+-"ルをブラックリストにしません。"
++"ルをブラックリストにしません"
+ 
+ #: ../src/disable_ipv6.py:42
+ msgid ""
+@@ -1433,9 +1427,9 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"      SELinux により、$SOURCE_PATH が、ファイルシステムに $SOURCE_TYPE のコン"
+-"テキストでファイルを作成できません。\n"
+-"      "
++"    SELinux により、$SOURCE_PATH が、ファイルシステムに $SOURCE_TYPE のコンテ"
++"キストでファイルを作成できません。\n"
++"    "
+ 
+ #: ../src/filesystem_associate.py:31
+ msgid ""
+@@ -1454,8 +1448,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     SELinux により、$SOURCE は、ファイルシステムに、$SOURCE_TYPE のコンテキ"
+-"ストを持つファイルを作成できません。\n"
++"    SELinux により、$SOURCE は、ファイルシステムに、$SOURCE_TYPE のコンテキス"
++"トを持つファイルを作成できません。\n"
+ "     通常、これは、たとえば \"cp -a\" のように、ファイルシステム間でのコピー"
+ "の実行時に、 cp コマンドにファイルのコンテキストを維持するように依頼する際に"
+ "生じます。すべてのファイルコンテキストがファイルシステム間で維持されるべきで"
+@@ -1464,7 +1458,7 @@ msgstr ""
+ "ムに置くべきではありません。\n"
+ "     \"cp -p\" は、コピー先のデフォルトファイルコンテキストを採用するた"
+ "め、\"cp -a\" より適切な可能性があります。\n"
+-"     "
++"    "
+ 
+ #: ../src/filesystem_associate.py:40
+ msgid ""
+@@ -1474,9 +1468,9 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     \"cp -p\" などのコマンドを使用して、SELinux コンテキスト以外の全ての権限"
++"    \"cp -p\" などのコマンドを使用して、SELinux コンテキスト以外の全ての権限"
+ "を保持します。\n"
+-"     "
++"    "
+ 
+ #: ../src/filesystem_associate.py:43
+ msgid ""
+@@ -1500,7 +1494,7 @@ msgid ""
+ "context."
+ msgstr ""
+ "\"cp -p\" などのコマンドを使用して、SELinux コンテキスト以外の全ての権限を保"
+-"持します。     "
++"持します。"
+ 
+ #: ../src/httpd_can_sendmail.py:28
+ msgid ""
+@@ -1618,10 +1612,9 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     \"$BOOLEAN\" boolean 値を true に変更すると、このアクセスを許可しま"
+-"す：\n"
++"    \"$BOOLEAN\" boolean 値を true に変更すると、このアクセスを許可します：\n"
+ "     \"setsebool -P $BOOLEAN=1\"\n"
+-"     "
++"    "
+ 
+ #: ../src/httpd_unified.py:57
+ msgid ""
+@@ -1713,7 +1706,7 @@ msgid ""
+ "If you do not think $SOURCE_BASE_PATH should try $ACCESS access on "
+ "$TARGET_BASE_PATH."
+ msgstr ""
+-"$SOURCE_BASE_PATH が $TARGET_BASE_PATH の  $ACCESS アクセスを試みるべきではな"
++"$SOURCE_BASE_PATH が $TARGET_BASE_PATH の $ACCESS アクセスを試みるべきではな"
+ "いと考える場合。"
+ 
+ #: ../src/kernel_modules.py:45 ../src/selinuxpolicy.py:45
+@@ -1757,7 +1750,7 @@ msgstr ""
+ "使用しないため、正常に稼働します。これが再転送であった場合、$TARGET_PATH には"
+ "出力されません。selinux-policy に bugzilla を生成する必要になり、これにより、"
+ "適切なパッケージに送られます。この avc は、無視しても問題はありません。\n"
+-"     "
++"    "
+ 
+ #: ../src/leaks.py:35
+ msgid ""
+@@ -1866,10 +1859,11 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux により、\"$TARGET_PATH\" という名前のファイルまたはディレクトリー\n"
++"    SELinux により、\"$TARGET_PATH\" という名前のファイルまたはディレクト"
++"リー\n"
+ "(タイプ \"$TARGET_TYPE\") における、$SOURCE によるマウントが阻止されまし"
+ "た。\n"
+-"     "
++"    "
+ 
+ #: ../src/mounton.py:34
+ msgid ""
+@@ -1893,7 +1887,7 @@ msgstr ""
+ "プ \"$TARGET_TYPE\" \n"
+ "    にはこの属性がありません。ファイルまたはディレクトリーのラベルは変更する"
+ "ことができます。\n"
+-"     "
++"    "
+ 
+ #: ../src/mounton.py:43
+ msgid ""
+@@ -1944,7 +1938,7 @@ msgstr ""
+ "を必要とする mozilla-plugins でアプリケーションを実行し、mozilla_plugin ロッ"
+ "クダウンは許可されないことから、mozilla_plugin ロックダウンをオフにするか、こ"
+ "れらのパッケージを使用しないようにする必要があります。\n"
+-" "
++"    "
+ 
+ #: ../src/mozplugger.py:35
+ msgid ""
+@@ -1957,7 +1951,8 @@ msgstr ""
+ "\n"
+ "'yum remove mozplugger spice-xpi' を実行して mozplluger または spice-xpi の"
+ "パッケージを削除するか、Firefox プラグインで SELinux の強制をオフにします。"
+-"setsebool -P unconfined_mozilla_plugin_transition 0"
++"setsebool -P unconfined_mozilla_plugin_transition 0\n"
++"    "
+ 
+ #: ../src/mozplugger.py:43
+ msgid "you must turn off SELinux controls on the Firefox plugins."
+@@ -2001,7 +1996,7 @@ msgid ""
+ "then using mozplugger package"
+ msgstr ""
+ "mozplugger パッケージではなく、SELinux Firefox プラグインの内容を続けて使用し"
+-"たい場合。"
++"たい場合"
+ 
+ #: ../src/mozplugger_remove.py:45
+ msgid "you must remove the mozplugger package."
+@@ -2017,11 +2012,11 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"      SELinux は、$SOURCE が要求するアクセスを拒否しました。$TARGET_PATH \n"
++"    SELinux は、$SOURCE が要求するアクセスを拒否しました。$TARGET_PATH \n"
+ "     には誤ったラベルが付けられている可能性があります。ラベルが適切に設定され"
+ "ている場合、\n"
+ "      openvpn はホームディレクトリーのコンテンツを読み込むことができます。\n"
+-"      "
++"    "
+ 
+ #: ../src/openvpn.py:41
+ msgid ""
+@@ -2442,7 +2437,7 @@ msgstr "$TARGET_BASE_PATH は RSYNC デーモンによって共有されるべ
+ 
+ #: ../src/rsync_data.py:46
+ msgid "You need to change the label on $TARGET_BASE_PATH"
+-msgstr "$TARGET_BASE_PATH のラベルを変更する必要があります。"
++msgstr "$TARGET_BASE_PATH のラベルを変更する必要があります"
+ 
+ #: ../src/samba_share.py:27
+ msgid ""
+@@ -2819,11 +2814,12 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"制限されたドメインでは \"sys_resource\" を必要としません。 つまり、 通常は"
+-"ディスク領域、 メモリー、 クォータなどのシステムリソースがそのシステムに不足"
+-"していることになります。 ディスク領域を解放すると、この AVC メッセージは表示"
+-"されなくなるはずです。 ディスク領域を解放しても AVC メッセージが表示される場"
+-"合は、この問題をバグとして報告してください。"
++"    制限されたドメインでは \"sys_resource\" を必要としません。 つまり、 通常"
++"はディスク領域、 メモリー、 クォータなどのシステムリソースがそのシステムに不"
++"足していることになります。 ディスク領域を解放すると、この AVC メッセージは表"
++"示されなくなるはずです。 ディスク領域を解放しても AVC メッセージが表示される"
++"場合は、この問題をバグとして報告してください。\n"
++"    "
+ 
+ #: ../src/sys_resource.py:39
+ msgid ""
+@@ -2906,7 +2902,7 @@ msgstr ""
+ " この操作を許可するのが唯一の選択肢となり、悪意のプログラムに対するシステムの"
+ "セキュリティーは低下します。\n"
+ "\n"
+-"     "
++"    "
+ 
+ #: ../src/vbetool.py:45 ../src/wine.py:56
+ msgid ""
+@@ -3046,7 +3042,7 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux により、$TARGET_PATH への xen のアクセスが拒否されました。\n"
++"    SELinux により、$TARGET_PATH への xen のアクセスが拒否されました。\n"
+ "これが XEN イメージの場合は、 xen_image_t のファイルコンテキストラベルが\n"
+ "必要があります。 システムは、/var/lib/xen/images ディレクトリ内でイメージファ"
+ "イル\n"
+@@ -3062,7 +3058,8 @@ msgstr ""
+ "パスをシステムのデフォルト設定に追加する必要があります。 $TARGET_PATH を xen "
+ "イメージ\n"
+ "として使用する意図がなかった場合は、 バグまたは不正侵入の試行を示している可能"
+-"性があります。"
++"性があります。\n"
++"    "
+ 
+ #: ../src/xen_image.py:41
+ msgid ""
+diff --git a/po/kn.po b/po/kn.po
+index dadcc9f..7345e41 100644
+--- a/po/kn.po
++++ b/po/kn.po
+@@ -14,7 +14,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Kannada (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/ko.po b/po/ko.po
+index 56b2a37..6990aa5 100644
+--- a/po/ko.po
++++ b/po/ko.po
+@@ -13,8 +13,8 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2021-03-25 04:02+0000\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+ "Last-Translator: simmon <simmon@nplob.com>\n"
+ "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+ "setroubleshoot/plugins/ko/>\n"
+@@ -23,7 +23,7 @@ msgstr ""
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Generator: Weblate 4.5.1\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -67,7 +67,7 @@ msgstr ""
+ "\n"
+ "    httpd 스크립트가 공용 디렉토리에 쓰기할 수 있도록 허용하는 경우 $BOOLEAN "
+ "부울을 활성화하고 공용 디렉토리의 파일 문맥을 public_content_rw_t로 변경해야 "
+-"합니다. 보다 자세한 내용은 \n"
++"합니다. 보다 자세한 문맥은 \n"
+ "    httpd_selinux man 페이지를 참조하십시오: \n"
+ "    \"setsebool -P $BOOLEAN=1; chcon -t public_content_rw_t <path>\"\n"
+ "    또한 시스템의 디폴트 파일 문맥 레이블 설정 파일을 변경하여 전체 레이블 설"
+@@ -127,10 +127,11 @@ msgstr ""
+ " <a href=\"http://people.redhat.com/drepper/selinux-mem.html\">SELinux 메모"
+ "리 보안 테스트</a>\n"
+ " 웹 페이지에서 이러한 요구 사항을 어떻게 삭제하는 지에 대하여 설명합니다.\n"
+-" $SOURCE 가 작동하지 않을 경우, 이를 작동시키시려면,\n"
+-" 응용 프로그램이 작동할 때 까지 이러한 액세스를 허용하기 위해 임시적으로 "
++" $SOURCE 가 작동하지 않을 경우, 이를 작동시키려면,\n"
++" 응용 프로그램이 작동 할 때 까지 이러한 액세스를 허용하기 위해 임시적으로 "
+ "SELinux를 설정하실 수 있습니다.\n"
+-" 이러한 꾸러미에 대해 결점보고서를 제출해 주시기 바랍니다.\n"
++" 이러한 꾸러미에 대해 결점 보고서를\n"
++" 제출해 주시기 바랍니다.\n"
+ "    "
+ 
+ #: ../src/allow_execheap.py:44
+@@ -324,12 +325,12 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"     일부 경우 라이브러리가 실수로 execstack 플래그로 표시될 수 있습니다,\n"
+-"    이 플래그로 표시된 라이브러리를 발견한 경우 execstack -c LIBRARY_PATH를\n"
+-"    사용하여 이를 삭제할 수 있습니다.  그 후 애플리케이션을 다시 시도합니다. "
+-"애플리케이션이\n"
+-"    계속하여 작동하지 않을 경우, execstack -s LIBRARY_PATH를 사용하여\n"
+-"    플래그를 되돌릴 수 있습니다.  \n"
++"    일부 경우 라이브러리가 실수로 execstack 플래그로 표시될 수 있습니다,\n"
++" 이 플래그로 표시된 라이브러리를 발견한 경우 execstack -c LIBRARY_PATH를\n"
++" 사용하여 이를 삭제 할 수 있습니다. 그 후 응용프로그램을 다시 시도합니다. 응"
++"용프로그램이\n"
++" 계속하여 작동하지 않을 경우, execstack -s LIBRARY_PATH를 사용하여\n"
++" 플래그를 되돌릴 수 있습니다.\n"
+ "    "
+ 
+ #: ../src/allow_execstack.py:89
+@@ -504,12 +505,13 @@ msgstr ""
+ "\n"
+ "    SELinux는 ftp 데몬이 NFS 파일 시스템에 저장된 파일을 $ACCESS하지 못하게 "
+ "합니다.\n"
+-" NFS (Network Filesystem)는 유닉스/리눅스상에서 주로 사용되는 네트워크 파일 "
+-"시스템입니다.\n"
++" NFS (네트워크 파일 시스템)는 유닉스/리눅스상에서 주로 사용되는 네트워크 파"
++"일\n"
++" 시스템입니다.\n"
+ " \n"
+-" ftp 데몬은 이러한 유형으로 마운트된 파일 시스템에서 하나 이상의 파일 또는\n"
++" ftp 데몬은 이러한 유형으로 적재된 파일 시스템에서 하나 이상의 파일 또는\n"
+ " 디렉토리 읽어오기를 시도합니다.\n"
+-" NFS 파일 시스템이 정교하게 SELinux 레이블하는 것을 지원하지 않음으로서\n"
++" NFS 파일 시스템이 정교하게 SELinux 이름표을 지원하지 않음으로서\n"
+ " 파일 시스템에 있는 모든 파일 및 디렉토리는 동일한 보안 문맥을 갖게 됩니다.\n"
+ " \n"
+ " NFS 파일 시스템에서 파일을 읽어오기 위해 ftp 데몬을 설정하지 않은 경우\n"
+@@ -774,7 +776,8 @@ msgstr ""
+ "    SELinux는 $SOURCE에 의해 요청된 액세스를 거부합니다. 현재 boolean\n"
+ " 설정은 이러한 접근를 허용하지 않습니다. 이러한 접근를 허용하기 위해\n"
+ " $SOURCE를 설정하지 않은 경우 침입시도 신호가 나타날 수 있습니다.\n"
+-" 이 접근을 허용하고자 할 경우 시스템의 부울을 변경하여 접근을 허용합니다.\n"
++" 이 접근을 허용하고자 할 경우 시스템의 부울을 변경하여 접근을\n"
++" 허용합니다.\n"
+ "    "
+ 
+ #: ../src/catchall_boolean.py:46
+@@ -876,7 +879,8 @@ msgstr ""
+ "    SELinux는 $SOURCE에 의해 요청된 접근을 거부합니다.\n"
+ " $SOURCE에 의해 요청된 접근를 예상하지 못했으며 이러한 접근은\n"
+ " 침입을 시도했다는 신호를 나타낼 수 있습니다. 이는 응용프로그램의 특정\n"
+-" 버전 또는 설정이 추가적 접근을 필요로 하기 때문일 수 도 있습니다.\n"
++" 버전 또는 설정이 추가적 접근을 필요로 하기\n"
++" 때문일 수 도 있습니다.\n"
+ "\n"
+ "    "
+ 
+@@ -1026,9 +1030,9 @@ msgid ""
+ msgstr ""
+ "\n"
+ "    SELinux는 $SOURCE에 의해 요청된 접근를 거부했습니다. 이 액세스는 $SOURCE"
+-"에서 필요하지 않으므로 침입 시도 신호가 나타날 수  있습니다. 또한 응용프로그"
+-"램의 특정 버전이나 설정이 추가 접근를 필요로 할 수 있습니다. spice-xpi는 데스"
+-"크톱으로의 접근이 필요한 mozilla-plugins에서 응용프로그램을 실행하지만 "
++"에서 필요하지 않으므로 침입 시도 신호가 나타날 수 있습니다. 또한 응용프로그램"
++"의 특정 버전이나 설정이 추가 접근을 필요로 할 수 있습니다. spice-xpi는 데스크"
++"톱으로의 접근이 필요한 mozilla-plugins에서 응용프로그램을 실행하지만 "
+ "mozilla_plugin 잠금에서는 이를 허용하지 않기 때문에 mozilla_plugin 잠금을 해"
+ "제하거나 꾸러미 자체를 사용하지 않도록 합니다.\n"
+ "    "
+@@ -1043,8 +1047,7 @@ msgid ""
+ msgstr ""
+ "\n"
+ "'yum remove mozplugger spice-xpi'를 실행하여 mozplugger 또는 spice-xpi 꾸러미"
+-"를 제거하거나\n"
+-"Chrome 플러그인을 통해 SELinux의 강제를 비활성화합니다.\n"
++"를 제거하거나 Chrome 플러그인을 통해 SELinux의 강제를 비활성화 합니다.\n"
+ "setsebool -P unconfined_chrome_sandbox_transition 0\n"
+ "    "
+ 
+@@ -1423,7 +1426,8 @@ msgstr ""
+ "요는 없습니다.\n"
+ " 예를 들어, iso9660_t와 같이 읽기 전용 파일 유형은 r/w 시스템에 없어도 됩니"
+ "다.\n"
+-" \"cp -p\"는 기본값 파일 문맥을 채택하므로 이를 사용하는 것이 더 좋습니다.\n"
++" \"cp -p\"는 기본값 파일 문맥을 채택하므로 이를 사용하는 것이\n"
++" 더 좋습니다.\n"
+ "    "
+ 
+ #: ../src/filesystem_associate.py:40
+@@ -1805,8 +1809,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    SELinux는 $SOURCE가 파일 또는 디렉토리 \"$TARGET_PATH\" (유형 "
+-"\"$TARGET_TYPE\")에 적재하지 못하게 합니다.\n"
++"    SELinux는 $SOURCE가 파일 또는 디렉토리 \"$TARGET_PATH\"\n"
++"    (유형 \"$TARGET_TYPE\")에 적재하지 못하게 합니다.\n"
+ "    "
+ 
+ #: ../src/mounton.py:34
+@@ -1890,8 +1894,8 @@ msgstr ""
+ "\n"
+ "'yum remove mozplugger spice-xpi'를 실행하여 mozplugger 또는 spice-xpi 꾸러미"
+ "를 제거하거나\n"
+-"파이어폭스 플러그인을 통해 SELinux 강제를 해제합니다.\n"
+-"setsebool -P unconfined_mozilla_plugin_transition 0\n"
++"파이어폭스 플러그인을 통해 SELinux 강제를 해제합니다. setsebool -P "
++"unconfined_mozilla_plugin_transition 0\n"
+ "    "
+ 
+ #: ../src/mozplugger.py:43
+@@ -1909,10 +1913,10 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    SELinux는 $SOURCE에 의해 요청된 액세스를 거부했습니다. 이 접근은\n"
++"    SELinux는 $SOURCE에 의해 요청된 접근을 거부했습니다. 이 접근은\n"
+ " $SOURCE에서 필요한 접근이 아니기 때문에 침입을 시도했다는 신호가\n"
+ " 표시될 수 있습니다.\n"
+-" 애플리케이션의 특정 버전 또는 설정이 추가 접근을\n"
++" 응용프로그램의 특정 버전 또는 설정이 추가 접근을\n"
+ " 필요로 하는 원인이 될 가능성이 있습니다.\n"
+ "    "
+ 
+@@ -2350,8 +2354,7 @@ msgstr ""
+ "    chcon -R -t rsync_data_t '$TARGET_PATH'를 실행하여 파일 문맥을 변경할 수 "
+ "있습니다\n"
+ " 전체 이름표 변경 시 이를 보존하기 위해 시스템의 기본값 파일 문맥 파일을 변경"
+-"해야 합니다. \"semanage fcontext -a -t rsync_data_t\n"
+-" '$FIX_TARGET_PATH'\"\n"
++"해야 합니다. \"semanage fcontext -a -t rsync_data_t '$FIX_TARGET_PATH'\"\n"
+ "    "
+ 
+ #: ../src/rsync_data.py:45
+@@ -2546,12 +2549,15 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    SELinux가 막았습니다. $SOURCE / sys / fs / selinux 아래에 파일을 쓰는 것"
+-"에서. / sys / fs / selinux 아래의 파일은 SELinux가 구성된 방식을 제어합니"
+-"다. / sys / fs / selinux 아래에있는 파일에 쓸 필요가있는 모든 프로그램에는 이"
+-"미 정책이 작성되어 있어야합니다. 손상된 응용 프로그램이 SELinux를 끄려고하면"
+-"이 AVC가 생성됩니다. 이것은 심각한 문제입니다. 시스템이 손상 될 수 있습니"
+-"다.\n"
++"    SELinux는 작성에서 /sys/fs/selinux 아래에서 파일까지 $SOURCE를 막고 있습"
++"니다.\n"
++"    /sys/fs/selinux 제어하는 방식 아래에 있는 파일은 구성되어 있습니다.\n"
++"   /sys/fs/selinux 아래에 있는 파일에 작성되어 있어야 하는 모든 프로그램은\n"
++"   이미 정책을 갖고 있어야 합니다. 만약 손상된 응용 프로그램이 SELinux를 끄려"
++"고 하면\n"
++"   이와 같은 AVC가 발생 될 것입니다. 이는 심각한 문제입니다. 자신의 시스템"
++"은\n"
++"   손상 될 수 있습니다.\n"
+ "    "
+ 
+ #: ../src/setenforce.py:48
+@@ -2759,21 +2765,22 @@ msgid ""
+ "/* Override max number of consoles on console allocation */\n"
+ "/* Override max number of keymaps */\n"
+ msgstr ""
+-"시스템 리소스가 부족한 이유를 진단하고 문제를 해결해야합니다\n"
++"시스템 자원이 부족한 이유를 진단하고 문제를 해결해야 합니다\n"
+ "\n"
+-". /usr/include/linux/capability.h에 따르면 sys_resource는 다음을 수행해야합니"
+-"다:\n"
++". /usr/include/linux/capability.h에 따르면 sys_resource는 다음을 수행해야 합"
++"니다:\n"
+ "\n"
+-"/* 리소스 제한을 무시합니다. 자원 제한을 설정하십시오. */\n"
+-"/* 할당량 한도를 재정의합니다. */\n"
+-"/* ext2 파일 시스템의 데이터 저널링 모드 수정\n"
+-"(저널링 리소스 사용) */\n"
+-"/ * 참고 : ext2는 리소스 오버라이드를 확인할 때 fsuid를 기하여\n"
+-"fsuid를 사용하여 재정의 할 수도 있습니다. */\n"
+-"/ * IPC 메시지 대기열의 크기 제한 무시 */\n"
+-"/ * 실시간 클럭에서 64hz 이상의 인터럽트 허용 */\n"
+-"/ * 콘솔 할당시 콘솔의 최대 수 무시 */\n"
+-"/ * 키맵 최대 무시 */\n"
++"/* 자원 제한을 무시합니다. 자원 한계를 설정하세요. */\n"
++"/* 할당량 한계를 재정의합니다. */\n"
++"/* ext2 파일 시스템에서 예약된 공간을 재정의합니다. */\n"
++"/* ent3 파일 시스템에서 자료 저널링 공간을 수정합니다 (저널링\n"
++" 자원 사용) */\n"
++"/ * 기록 : ext2는 자원 재정의를 확인 할 때 fsuid를 존중하며, 그래서\n"
++" fsuid를 사용하여 재정의 할 수도 있습니다. */\n"
++"/ * IPC 메시지 대기열에서 크기 제한을 재정의 합니다 */\n"
++"/ * 실-시간 클럭에서 64hz 이상의 인터럽트 허용합니다 */\n"
++"/ * 콘솔 할당에서 콘솔의 최대 수를 재정의 합니다 */\n"
++"/ * 키맵의 최대 수를 재정의 합니다 */\n"
+ 
+ #: ../src/vbetool.py:30
+ msgid ""
+@@ -2881,26 +2888,26 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux는 Linux에서 Windows 응용 프로그램을 실행하는데 사용되는 프로그램인\n"
+-"wine-preloader에서 요청한 작업을 거부했습니다. wine으로 위장한 여러 불법/악"
++"SELinux는 리눅스에서 MS윈도우 응용프로그램을 실행하는데 사용되는 프로그램인\n"
++"wine-preloader에서 요청한 작업을 거부했습니다. 이 프로그램은 시스템 메모리에"
++"서\n"
++"안전하지 않은 사용으로 알려져 있으나 그런 것은 와인으로 위장한 다수의 불법/악"
+ "성\n"
+-"프로그램과 마찬가지로 이 프로그램은 시스템 메모리에서 안전하지 않은 동작을 사"
+-"용하는\n"
+-"것으로 알려져있습니다. Windows 응용 프로그램을 실행하고자 하실 경우 이 작업"
+-"을\n"
+-"허용하는 것이 유일한 방법이며 악성 프로그램에 대해 시스템 보안이 저하됩니"
+-"다.\n"
+-"또는 Linux에서 Windows 응용 프로그램을 실행하지 않는 것이 좋습니다.\n"
+-"Windows 응용 프로그램을 실행하고자 하지 않으실 경우, 이는 악의로 사용자의\n"
+-"시스템에 침입 시도하는 악성 프로그램의 공격을 받고 있다고 나타납니다.\n"
++"프로그램입니다. 만약 당신이 윈도우 프로그램을 실행하고자 한다면, 당신의 선택"
++"은\n"
++"이와 같은 동작을 허용하고 이러한 악성 프로그램에 대하여시스템 보안을 낮추는\n"
++"것이거나 또는 리눅스 환경에서 윈도우 응용프로그램을 실행하지 않도록 하는 것입"
++"니다.\n"
++"MS 윈도우 응용프로그램을 실행하고자 하는 경우에, 이는 악의로 사용자의\n"
++"시스템에 침입 시도하는 악성 프로그램의 공격을 받고 있다고\n"
++"나타납니다.\n"
+ "\n"
+-"다음 사이트를 참조하십시오:\n"
++"다음 언급된 부분을 참조하세요:\n"
+ "\n"
+ "http://wiki.winehq.org/PreloaderPageZeroProblem\n"
+ "\n"
+-"이 사이트에서는 메모리의 안전하지 않은 사용으로 인해 wine에서 발생할 수 있"
+-"는 \n"
+-"다른 문제 및 이러한 문제를 해결할 수 있는 방법에 대해 설명합니다.\n"
++"이는 와인이 안전하지 않은 메모리 사용으로 인하여 발생하는 다른 문제와\n"
++"이들 문제에 대한 해결책을 설명합니다.\n"
+ "\n"
+ "    "
+ 
+@@ -2974,11 +2981,11 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"    chcon -t xen_image_t '$TARGET_PATH'를 실행하여 파일 문맥을 변경할 수 있습"
+-"니다.\n"
+-" 전체 이름표 변경 시 이를 보존하기 위해 시스템의 기본값 파일 문맥 파일을 변경"
+-"해야 합니다. \"semanage fcontext -a -t xen_image_t\n"
+-" '$FIX_TARGET_PATH'\"\n"
++"    당신은 chcon -t xen_image_t '$TARGET_PATH'를 실행하여 파일 문맥을 변경 "
++"할 수 있습니다.\n"
++"    당신은 또한 전체 이름표 재지정시에 파일을 보존하기 위한 시스템에서 기본 "
++"파일인 문맥 파일을 변경해야 합니다. \"semanage fcontext -a -t xen_image_t "
++"'$FIX_TARGET_PATH'\"\n"
+ "    "
+ 
+ #: ../src/xen_image.py:56
+diff --git a/po/mai.po b/po/mai.po
+index b3b77bb..dd0a6a3 100644
+--- a/po/mai.po
++++ b/po/mai.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/ml.po b/po/ml.po
+index e676496..79b1a42 100644
+--- a/po/ml.po
++++ b/po/ml.po
+@@ -9,7 +9,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Malayalam (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/mr.po b/po/mr.po
+index b65f3d8..606686c 100644
+--- a/po/mr.po
++++ b/po/mr.po
+@@ -10,7 +10,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Marathi (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/ms.po b/po/ms.po
+index 40caf24..208ba4f 100644
+--- a/po/ms.po
++++ b/po/ms.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/nb_NO.po b/po/nb_NO.po
+index fb6b56e..fce45a6 100644
+--- a/po/nb_NO.po
++++ b/po/nb_NO.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/nds.po b/po/nds.po
+index 78df0b9..5f4599e 100644
+--- a/po/nds.po
++++ b/po/nds.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/nl.po b/po/nl.po
+index 6e41cee..10deb0d 100644
+--- a/po/nl.po
++++ b/po/nl.po
+@@ -14,7 +14,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2021-02-28 13:40+0000\n"
+ "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+ "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
+diff --git a/po/nn.po b/po/nn.po
+index ba5db35..b2ddb1f 100644
+--- a/po/nn.po
++++ b/po/nn.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/or.po b/po/or.po
+index 355869a..81f1888 100644
+--- a/po/or.po
++++ b/po/or.po
+@@ -12,7 +12,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Oriya (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/pa.po b/po/pa.po
+index 327e232..d6f8399 100644
+--- a/po/pa.po
++++ b/po/pa.po
+@@ -11,7 +11,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Panjabi (Punjabi) (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/pl.po b/po/pl.po
+index 78855bb..23f821e 100644
+--- a/po/pl.po
++++ b/po/pl.po
+@@ -14,7 +14,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-09-05 09:05+0000\n"
+ "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+ "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+diff --git a/po/pt.po b/po/pt.po
+index 0121ffb..59c173c 100644
+--- a/po/pt.po
++++ b/po/pt.po
+@@ -10,7 +10,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Portuguese (http://www.transifex.com/projects/p/fedora/"
+diff --git a/po/pt_BR.po b/po/pt_BR.po
+index 91757cd..8f9c903 100644
+--- a/po/pt_BR.po
++++ b/po/pt_BR.po
+@@ -18,7 +18,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-08-19 03:13-0400\n"
+ "Last-Translator: Petr Lautrbach <plautrba@fedoraproject.org>\n"
+ "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+diff --git a/po/ru.po b/po/ru.po
+index 0881dd8..afc6fea 100644
+--- a/po/ru.po
++++ b/po/ru.po
+@@ -16,7 +16,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-08-19 03:11-0400\n"
+ "Last-Translator: Petr Lautrbach <plautrba@fedoraproject.org>\n"
+ "Language-Team: Russian (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/si.po b/po/si.po
+index 3a7f816..f1445f2 100644
+--- a/po/si.po
++++ b/po/si.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/sk.po b/po/sk.po
+index 1292b44..31428c2 100644
+--- a/po/sk.po
++++ b/po/sk.po
+@@ -3,7 +3,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2019-07-04 01:33-0400\n"
+ "Last-Translator: Lukas Vrabec <lvrabec@redhat.com>\n"
+ "Language-Team: Slovak\n"
+diff --git a/po/sr.po b/po/sr.po
+index 0c7f33f..f985666 100644
+--- a/po/sr.po
++++ b/po/sr.po
+@@ -10,7 +10,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:32-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Serbian (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/sr_Latn.po b/po/sr_Latn.po
+index 148ef0e..dfc75ea 100644
+--- a/po/sr_Latn.po
++++ b/po/sr_Latn.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/sv.po b/po/sv.po
+index 5170af7..255830c 100644
+--- a/po/sv.po
++++ b/po/sv.po
+@@ -12,7 +12,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2020-09-03 13:29+0000\n"
+ "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+ "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+diff --git a/po/ta.po b/po/ta.po
+index 2f4edb7..954f60c 100644
+--- a/po/ta.po
++++ b/po/ta.po
+@@ -17,7 +17,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:33-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Tamil (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/te.po b/po/te.po
+index 46cdbce..227951c 100644
+--- a/po/te.po
++++ b/po/te.po
+@@ -11,7 +11,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2017-08-31 08:33-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Telugu (http://www.transifex.com/projects/p/fedora/language/"
+diff --git a/po/th.po b/po/th.po
+index de9a3b9..c57658e 100644
+--- a/po/th.po
++++ b/po/th.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/tr.po b/po/tr.po
+index b01d90b..094a9d0 100644
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+diff --git a/po/uk.po b/po/uk.po
+index f30b754..2adb327 100644
+--- a/po/uk.po
++++ b/po/uk.po
+@@ -13,8 +13,8 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2020-08-31 14:47+0000\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+ "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+ "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+ "setroubleshoot/plugins/uk/>\n"
+@@ -24,7 +24,7 @@ msgstr ""
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+ "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Generator: Weblate 4.2.1\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -415,10 +415,9 @@ msgstr ""
+ "    SELinux заборонив доступ фоновій службі ftp до файлів $ACCESS, що "
+ "зберігаються у файловій системі CIFS.\n"
+ "    CIFS (Загальна файлова система для інтернету) — мережева файлова "
+-"система, яка подібна до SMB\n"
++"система, яка подібна до\n"
+ "    SMB (<a href=\"http://www.microsoft.com/mind/1196/cifs.asp\">http://www."
+ "microsoft.com/mind/1196/cifs.asp</a>).\n"
+-"\n"
+ "    Фонова служба ftp намагалася прочитати один або декілька файлів або "
+ "каталогів\n"
+ "    зі змонтованої файлової системи цього типу. Оскільки у файлових системах "
+diff --git a/po/zh_CN.po b/po/zh_CN.po
+index 76198a1..539294f 100644
+--- a/po/zh_CN.po
++++ b/po/zh_CN.po
+@@ -18,17 +18,17 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
+-"PO-Revision-Date: 2020-08-19 03:15-0400\n"
+-"Last-Translator: Petr Lautrbach <plautrba@fedoraproject.org>\n"
+-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/fedora/"
+-"language/zh_CN/)\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
++"PO-Revision-Date: 2021-09-17 07:27+0000\n"
++"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
++"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
++"projects/setroubleshoot/plugins/zh_CN/>\n"
+ "Language: zh_CN\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Generator: Zanata 4.6.2\n"
++"X-Generator: Weblate 4.8\n"
+ 
+ #: ../src/allow_anon_write.py:27
+ msgid ""
+@@ -52,7 +52,8 @@ msgid ""
+ msgstr ""
+ "\n"
+ "    SELinux 策略正在阻止 httpd 脚本向公共目录写入内容。\n"
+-"    如果没有将 httpd 设置为可写入公共目录，这可能是尝试入侵的信号。\n"
++"    如果没有将 httpd 设置为可写入公共目录，\n"
++"    这可能是尝试入侵的信号。\n"
+ "    "
+ 
+ #: ../src/allow_anon_write.py:38
+@@ -75,7 +76,7 @@ msgstr ""
+ "    \"setsebool -P $BOOLEAN=1; chcon -t public_content_rw_t <path>\"\n"
+ "    另外，还必须更改系统默认文件环境的标记文件，以便即使在完全重新标记时仍可"
+ "保留公共目录的标记。 \"semanage fcontext -a -t public_content_rw_t <path>\"\n"
+-"        "
++"    "
+ 
+ #: ../src/allow_anon_write.py:44
+ msgid ""
+@@ -142,8 +143,8 @@ msgstr ""
+ "\n"
+ "    如果想让 $SOURCE 继续执行, 必须将\n"
+ "    $BOOLEAN 布尔值设为开启。注意：该布尔值将会影响系统中的\n"
+-"    所有应用程序。 \n"
+-" "
++"    所有应用程序。\n"
++"    "
+ 
+ #: ../src/allow_execheap.py:50
+ msgid ""
+@@ -418,7 +419,7 @@ msgstr ""
+ "    \"setsebool -P $BOOLEAN=1 $WRITE_BOOLEAN=1\"。\n"
+ "    警告：设置 \"$WRITE_BOOLEAN\"布尔值为“true”以后，除允许\n"
+ "    ftp守护进程向 CIFS 文件系统上的文件和目录写入外，还将\n"
+-"    允许其向所有的公共内容 (类型为 public_content_t 的文件和目录) 写入。"
++"    允许其向所有的公共内容 (类型为 public_content_t 的文件和目录) 写入。  "
+ 
+ #: ../src/allow_ftpd_use_cifs.py:62
+ msgid "If you want to allow ftpd to write to cifs file systems"
+@@ -578,13 +579,13 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"  SELinux 已经拒绝 $SOURCE_PATH 执行可能错\n"
++"    SELinux 已经拒绝 $SOURCE_PATH 执行可能错\n"
+ "  误标记的文件 $TARGET_PATH。可将 automounter 设置为\n"
+ "  执行配置文件，如果 $TARGET_PATH 是一个自动挂载可执行\n"
+ "  配置文件，则需要有一个 bin_t 文件标记。\n"
+ "  如果 automounter 正在试图执行它不应该执行的动作， 则可能是一个入侵攻击提"
+ "示。\n"
+-" "
++"    "
+ 
+ #: ../src/automount_exec_config.py:39
+ msgid ""
+@@ -716,7 +717,7 @@ msgstr ""
+ "    SELinux 拒绝了由 $SOURCE 发起的访问请求。当前布尔值设置不允许此访问。\n"
+ "    如果未设置 $SOURCE 请求此访问，那么这可能是企图入侵的信号。\n"
+ "    如果确实需要此访问权限，则需要将此系统上的布尔值修改为允许访问。\n"
+-"   "
++"    "
+ 
+ #: ../src/catchall_boolean.py:46
+ msgid ""
+@@ -849,7 +850,7 @@ msgstr ""
+ msgid ""
+ "If you believe that $SOURCE_BASE_PATH should have the $ACCESS capability by "
+ "default."
+-msgstr "如果你相信 $SOURCE_BASE_PATH应该有 $ACCESS 默认情况下的功能"
++msgstr "如果你相信 $SOURCE_BASE_PATH应该有 $ACCESS 默认情况下的功能。"
+ 
+ #: ../src/catchall.py:54
+ msgid ""
+@@ -956,11 +957,12 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux 拒绝了 $SOURCE 的访问请求。这不该是 $SOURCE 所需要的访问请求，因此该"
+-"请求可能是尝试入侵的信号。 当然这也可能是应用程序的特定版本或配置导致其需要额"
+-"外的访问权限。spice-xpi 在需要访问桌面的 mozilla 插件中运行程序，而 "
++"    SELinux 拒绝了 $SOURCE 的访问请求。这不该是 $SOURCE 所需要的访问请求，因"
++"此该请求可能是尝试入侵的信号。 当然这也可能是应用程序的特定版本或配置导致其需"
++"要额外的访问权限。spice-xpi 在需要访问桌面的 mozilla 插件中运行程序，而 "
+ "mozilla_plugin lockdown 不允许此操作，因此您只能关闭 mozilla 插件锁定功能，或"
+-"者不使用这些软件包。"
++"者不使用这些软件包。\n"
++"    "
+ 
+ #: ../src/chrome.py:35
+ msgid ""
+@@ -974,7 +976,7 @@ msgstr ""
+ "可通过 'yum remove mozplugger' 移除 mozplluger 或者 spice-xpi 软件包，或者关"
+ "闭 Chrome 插件的 SELinux 增强功能。\n"
+ "setsebool -P unconfined_chrome_sandbox_transition 0\n"
+-"   "
++"    "
+ 
+ #: ../src/chrome.py:38 ../src/mozplugger.py:38
+ #, python-format
+@@ -1014,8 +1016,8 @@ msgstr ""
+ "    SELinux 拒绝了cvs 访问 $TARGET_PATH。\n"
+ "    如果这是一个 CVS 程序库，它应具有文件环境标记 cvs_data_t。\n"
+ "    如果您并没有打算将 $TARGET_PATH 作为 CVS 程序库使用，这可能是\n"
+-"    一个 bug 或是尝试入侵的信号。   \n"
+-" "
++"    一个 bug 或是尝试入侵的信号。\n"
++"    "
+ 
+ #: ../src/cvs_data.py:38
+ msgid ""
+@@ -1067,8 +1069,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"\\tdac_override 和 dac_read_search 功能通常说明，鉴于权限标签，root 进程在无"
+-"法访问某个文件。这通常意味着有些文件的所有者/权限是错误的。\n"
++"\tdac_override 和 dac_read_search 功能通常说明，鉴于权限标签，root "
++"进程在无法访问某个文件。这通常意味着有些文件的所有者/权限是错误的。\n"
+ "    "
+ 
+ #: ../src/dac_override.py:38
+@@ -1729,11 +1731,12 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"SELinux 拒绝了 $SOURCE 的访问请求。$SOURCE 不该需要此访问权限。因此这可能是企"
+-"图入侵的信号。然而这也可能是应用程序的特定版本或配置导致其需要此额外访问权"
+-"限。spice-xpi 在需要访问桌面的 mozilla 插件中运行程序，而这是 mozilla_plugin "
+-"lockdown 所不允许的，因此只能关闭 mozilla_plugin lockdown，或不使用这些软件"
+-"包。"
++"    SELinux 拒绝了 $SOURCE 的访问请求。$SOURCE 不该需要此访问权限。因此这可能"
++"是企图入侵的信号。然而这也可能是应用程序的特定版本或配置导致其需要此额外访问"
++"权限。spice-xpi 在需要访问桌面的 mozilla 插件中运行程序，而这是 "
++"mozilla_plugin lockdown 所不允许的，因此只能关闭 mozilla_plugin lockdown，或"
++"不使用这些软件包。\n"
++"    "
+ 
+ #: ../src/mozplugger.py:35
+ msgid ""
+@@ -1878,7 +1881,8 @@ msgstr ""
+ "    可以执行 executing chcon -t public_content_t '$TARGET_PATH' 更改文件上下"
+ "文。\n"
+ "    还必须在系统中更改默认文件上下文文件，以便在完全重新标记后保留它"
+-"们。\"semanage fcontext -a -t public_content_t '$FIX_TARGET_PATH'\""
++"们。\"semanage fcontext -a -t public_content_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/public_content.py:50
+ msgid "If you want to treat $TARGET_BASE_PATH as public content"
+@@ -1926,7 +1930,8 @@ msgstr ""
+ "\n"
+ "    可以执行 chcon -t virt_image_t '$TARGET_PATH' 来更改文件上下文。\n"
+ "    还必须在系统中更改默认文件上下文文件以便在完全重新标记后保留它"
+-"们。\"semanage fcontext -a -t virt_image_t '$FIX_TARGET_PATH'\""
++"们。\"semanage fcontext -a -t virt_image_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/qemu_blk_image.py:46
+ msgid ""
+@@ -1987,7 +1992,8 @@ msgstr ""
+ "\n"
+ "    可以执行 restorecon 命令恢复此文件的默认系统环境。\n"
+ "    restorecon '$TARGET_PATH'，如果该文件是一个目录，\n"
+-"    可以使用 restorecon -R '$TARGET_PATH' 进行递归恢复。"
++"    可以使用 restorecon -R '$TARGET_PATH' 进行递归恢复。\n"
++"    "
+ 
+ #: ../src/restorecon.py:64
+ #, python-format
+@@ -2207,7 +2213,8 @@ msgstr ""
+ "\n"
+ "    可以通过执行 chcon -R -t samba_share_t '$TARGET_PATH' 更改文件上下文。\n"
+ "    还必须修改系统默认文件环境文件以便即使在完全重新标记后，仍可以保留它"
+-"们。\"semanage fcontext -a -t samba_share_t '$FIX_TARGET_PATH'\""
++"们。\"semanage fcontext -a -t samba_share_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/samba_share.py:53
+ #, python-format
+@@ -2422,7 +2429,8 @@ msgstr ""
+ "\n"
+ "    可以执行 executing chcon -t swapfile_t '$TARGET_PATH' 更改文件上下文。\n"
+ "    还必须在系统中更改默认文件上下文文件以便在完全重新标记后保留它"
+-"们。\"semanage fcontext -a -t swapfile_t '$FIX_TARGET_PATH'\""
++"们。\"semanage fcontext -a -t swapfile_t '$FIX_TARGET_PATH'\"\n"
++"    "
+ 
+ #: ../src/sys_module.py:28
+ msgid ""
+diff --git a/po/zh_TW.po b/po/zh_TW.po
+index c488b1a..6dea988 100644
+--- a/po/zh_TW.po
++++ b/po/zh_TW.po
+@@ -15,7 +15,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2021-03-24 13:53+0100\n"
++"POT-Creation-Date: 2021-09-07 17:26+0200\n"
+ "PO-Revision-Date: 2018-08-23 05:41-0400\n"
+ "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/fedora/"
+-- 
+2.30.2
+
